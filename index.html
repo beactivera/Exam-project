@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exploited Body</title>
+</head>
+
+<!-- 
+TO DO LIST
+1- upload images - maybe in WP and then fetch on website
+2- put content for each section of the nav
+
+4- fix navigation in desktop version, when you open one section it display all option which are in nav ... -> see prototype
+5- add more style - maybe change fonts sizes and implement disered font
+6- make an arrow for scrolling
+7- add SoMe icons
+8- fix 'mouseover' event for each section of nav - when you want to reach particular section it opens too fast, even you did't touch the name of nav.... see on live preview
+9- which color should be on hover?
+ 
+ 
+-- change div for grid with two columns and two rows
+
+ -->
+
+
+
+<body>
+
+<!-- website is divided to sections, every section include one content, it is easier for us to manipulater later on in JS. We just assign for one element for each section function which will be clickable and it will open another section -->
+
+<!-- intro page where you will see the logo and animation which will lead you to homepage -->
+<section class="intro">
+    <div class="left-side-bg"></div>
+    <div class="right-side-bg"></div>
+    <div class="logo-bg"></div>
+</section>
+
+<!-- homepage - here you will find image of the artist, logo and navigation bar which will be placed in four corners, when you click on of them it will move to particular section -->
+<section class="home-page">
+    <div class="bg-homepage"></div>
+    <div class="logo-hp"></div>
+    <div class="so-me-icons"></div>
+    <!-- navigation section - when you click on div it will display particular content on homepage with background with opacity? -->
+    <div class="navigation-grid">
+    <div id="musicNav"class="music-nav">music</div>
+    <div id="showsNav" class="shows-nav">shows</div>
+    <div id="aboutNav"class="about-nav">about</div>
+    <div id="shopNav" class="shop-nav">shop</div>
+    </div>
+</section>
+   
+   
+<section class="music-content">
+  <div class="bg-left"></div>
+   <div class="music-nav-cont">music</div>
+   <ul class="nav-desktop">
+       <li><b><u>music</u></b></li>
+       <li>about</li>
+       <li>shows</li>
+       <li>shop</li>
+   </ul>
+   <div id="cross" class="cross-right-music"></div>
+   
+</section>
+   
+   
+<section class="shows-content">
+     <div class="bg-left"></div>
+     <div class="shows-nav-left">shows</div>
+     <ul class="nav-desktop">
+       <li>music</li>
+       <li>about</li>
+       <li><b><u>shows</u></b></li>
+       <li>shop</li>
+   </ul>
+   <div id="cross" class="cross-right-shows"></div>
+</section>
+   
+    
+<section class="about-content">
+    <div class="bg-left"></div>
+    <div class="about-top-nav">about</div> 
+    <ul class="nav-desktop">
+       <li>music</li>
+       <li><b><u>about</u></b></li>
+       <li>shows</li>
+       <li>shop</li>
+   </ul>
+    <div id="cross" class="cross-right-about"></div>
+    
+</section> 
+   
+   
+<section class="shop-content">
+     <div class="bg-left"></div>
+     <div class="shop-nav-top-left">shop</div>
+     <ul class="nav-desktop">
+       <li>music</li>
+       <li>about</li>
+       <li>shows</li>
+       <li><b><u>shop</u></b></li>
+   </ul>
+   <div id="cross" class="cross-right-shop"></div>
+</section>
+   
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
