@@ -34,21 +34,26 @@ TO DO LIST
 <section class="intro">
     <div class="left-side-bg"></div>
     <div class="right-side-bg"></div>
+   
     <div class="logo-bg"></div>
+   
 </section>
 
 <!-- homepage - here you will find image of the artist, logo and navigation bar which will be placed in four corners, when you click on of them it will move to particular section -->
 <section class="home-page">
+  
    
     <div class="bg-homepage"></div>
     <div class="logo-hp"></div>
     <div class="so-me-icons"></div>
+    
+  
     <!-- navigation section - when you click on div it will display particular content on homepage with background with opacity? -->
     <div class="navigation-grid">
-    <div id="musicNav"class="music-nav">music</div>
-    <div id="showsNav" class="shows-nav">shows</div>
-    <div id="aboutNav"class="about-nav">about</div>
-    <div id="shopNav" class="shop-nav">shop</div>
+    <div id="musicNav"class="music-nav">MUSIC</div>
+    <div id="showsNav" class="shows-nav">SHOWS</div>
+    <div id="aboutNav"class="about-nav">ABOUT</div>
+    <div id="shopNav" class="shop-nav">SHOP</div>
     </div>
 </section>
    
@@ -80,7 +85,8 @@ TO DO LIST
    
    
 <section class="shows-content">
-        <section id="eventList">
+       
+         <section id="eventList">
       <template id="template">
         <article class="event">
           <div class="location"></div>
@@ -93,8 +99,9 @@ TO DO LIST
         </article>
       </template>
     </section>
+        
      <div class="shows-nav-left">shows</div>
-     <ul class="nav-desktop">
+     <ul class="nav-desktop-right">
        <li>music</li>
        <li>about</li>
        <li><b><u>shows</u></b></li>
@@ -119,9 +126,22 @@ TO DO LIST
    
    
 <section class="shop-content">
-     <div class="bg-left"></div>
+      <div class="shop">
+         <section id="shopList">
+         <template id="shopTemplate">
+         <article class="shopItems">
+             <div class="oneitem">
+              <div class="picture"></div>
+              <button class="price"> </button>
+              <div ></div>
+              </div>
+         
+        </article>
+        </template>
+        </section>
+    </div>
      <div class="shop-nav-top-left">shop</div>
-     <ul class="nav-desktop">
+     <ul class="nav-desktop-right">
        <li>music</li>
        <li>about</li>
        <li>shows</li>
@@ -134,5 +154,6 @@ TO DO LIST
     <script src="js/main.js"></script>
      <script src="js/soundcloud.js"></script>
       <script src="js/script.js"></script>
+      <script src="js/shop.js"></script>
 </body>
 </html>

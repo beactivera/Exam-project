@@ -77,6 +77,8 @@ function gotoShows(){
     shows.classList.remove('hide');
     about.classList.add('hide');
     shop.classList.add('hide');
+     showsNav.style.display = "none";
+    shopNav.style.display = "none";
 }
 
 rightCloseShows.addEventListener('click', backToHomePageL)
@@ -88,6 +90,8 @@ function backToHomePageL(){
     shows.classList.add('hide');
     about.classList.add('hide');
     shop.classList.add('hide');
+    showsNav.style.display = "block";
+    shopNav.style.display = "block";
 }
 
 /////////////////////////////////////////////////////
@@ -105,6 +109,7 @@ function gotoAbout(){
     shop.classList.add('hide');
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
+    
 }
 
 rightCloseAbout.addEventListener('click', backToHomePageR)
@@ -121,6 +126,9 @@ function gotoShop(){
     shows.classList.add('hide');
     about.classList.add('hide');
     shop.classList.remove('hide');
+    showsNav.style.display = "none";
+    shopNav.style.display = "none";
+    
 }
 
 rightCloseShop.addEventListener('click', backToHomePageL);

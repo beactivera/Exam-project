@@ -12,9 +12,9 @@ function fetchConcerts() {
   let urlParams = new URLSearchParams(window.location.search);
 
 let catid = urlParams.get("category");
-  let endpoint = "http://loreleiheckmann.com/wordpress/wordpress/wp-json/wp/v2/artist?_embed&per_page=5&page="+page
+  let endpoint = "http://loreleiheckmann.com/wordpress/wordpress/wp-json/wp/v2/gigs?_embed&per_page=5&page="+page
   if(catid){ // DRY
-    endpoint = "http://loreleiheckmann.com/wordpress/wordpress/wp-json/wp/v2/artist?_embed&per_page=5&page="+page + "&categories="+catid
+    endpoint = "http://loreleiheckmann.com/wordpress/wordpress/wp-json/wp/v2/gigs?_embed&per_page=5&page="+page + "&categories="+catid
   }
     fetch(endpoint)
       .then(e => e.json())
