@@ -4,9 +4,34 @@ body{
     top:0;
     left: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
+  
 }
 /* mobile first */
+
+.soundcloud{
+    z-index: 10;
+    width:100vw;
+    height: auto;
+     position: absolute;
+    background-color: black;
+    opacity:0.8;  
+   
+}
+
+.sc{
+margin-top: 10vh;
+ 
+    
+}
+.soundcloud .link{
+    width: 80vw;
+    height:auto;
+    left:0;
+    right:0;
+  
+ 
+}
+
 .left-side-bg{
     position: absolute;
     width: 50vw;
@@ -132,14 +157,7 @@ body{
     font-size: 30px;
     z-index: 3; 
 }
-.bg-left, .bg-right{
-    position: absolute;
-    top:0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 2;
-}
+
 .cross-right-music, .cross-right-shows, .cross-right-about, .cross-right-shop{
     position: absolute;
     top: 3vh;
@@ -155,9 +173,37 @@ body{
     display: none;
 }
 /* desktop  */ 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 700px) {
+    
+.soundcloud{
+    width:50vw;
+    height: auto;
+    padding-bottom: 3vh;
+     position: sticky;
+    height:200vh;
+   
+}
+  
+
+
+#scList{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;
+
+    
+}
+.soundcloud .link{
+    width: 270px;
+    height: 270px;
+    overflow-y: hidden;
+   
+ 
+ 
+}
     .bg-homepage{
-        background-image: url(../images/noah_proffakuva.jpg);
+        background-image: url(../images/large/image-background-homepage-big.jpg);
+         position: fixed;
     }
     .bg-left{
     width: 50vw;
@@ -172,7 +218,7 @@ body{
         position: absolute;
         color:white;
         top: 5vh;
-        z-index: 2;
+        z-index: 20;
     }
     .nav-desktop li{
         padding-left: 30px;
@@ -204,5 +250,7 @@ body{
     left: 45vw;    
     width: 3%;
     height: 10%;
+        z-index: 20;
+        cursor:pointer;
     }
 }

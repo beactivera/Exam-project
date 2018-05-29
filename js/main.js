@@ -15,6 +15,7 @@ let shopNav = document.querySelector('.shop-nav');
 let shop = document.querySelector('.shop-content');
 let rightCloseShop = document.querySelector('.cross-right-shop');
 
+
 // hide everythin at the beginning except for intro page
 home.classList.add('hide');
 music.classList.add('hide');
@@ -47,6 +48,8 @@ function gotoMusic(){
     shows.classList.add('hide');
     about.classList.add('hide');
     shop.classList.add('hide');
+    musicNav.style.display = "none";
+    aboutNav.style.display = "none";
 }
 
 rightCloseMusic.addEventListener('click', backToHomePageR)
@@ -58,6 +61,8 @@ function backToHomePageR(){
     shows.classList.add('hide');
     about.classList.add('hide');
     shop.classList.add('hide');
+    musicNav.style.display = "block";
+    aboutNav.style.display = "block";
 }
 
 /////////////////////////////////////////////////////
@@ -98,6 +103,8 @@ function gotoAbout(){
     shows.classList.add('hide');
     about.classList.remove('hide');
     shop.classList.add('hide');
+    musicNav.style.display = "none";
+    aboutNav.style.display = "none";
 }
 
 rightCloseAbout.addEventListener('click', backToHomePageR)
