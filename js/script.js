@@ -32,11 +32,20 @@ function showConcert(data){
 function showSingleConcert(aConcert){
   let clone = template.cloneNode(true);
     
-  clone.querySelector("h1").textContent = aConcert.title.rendered;
+  clone.querySelector(".day").textContent = aConcert.acf.weekday;
+  
+    var day= aConcert.acf.date.substring(6,8);
+    var month= aConcert.acf.date.substring(2.4);
+    var year= aConcert.acf.date.substring(0,2);
+    
+     clone.querySelector(".date").textContent = day + month + year;
+    
     
    clone.querySelector(".location").textContent = aConcert.acf.location;
     
-    clone.querySelector(".date").textContent = aConcert.acf.date;
+     clone.querySelector(".club").textContent = aConcert.acf.club_name;
+    
+  
     
   clone.querySelector(".price").textContent=aConcert.acf.price;
     
