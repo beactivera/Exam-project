@@ -258,6 +258,11 @@ background-image: url("/images/eb/hover_black.jpg");
 
 /*MUSIC OPENED MENU */
 
+.music-nav-cont{
+    z-index: 3;
+    position: absolute;
+    margin-left: 10vw;
+}
 .soundcloud{
     z-index: 2;
     width:100vw;
@@ -265,28 +270,63 @@ background-image: url("/images/eb/hover_black.jpg");
      position: absolute;
      background-color: black;
     opacity:0.8; 
-    margin-bottom: 2vh;
     cursor: pointer;
+    top: -3vh;
 }
 
-.music-nav-cont{
-    z-index: 100;
+.scList{
+     opacity: 1; 
 }
 
 .sc{
-     margin: auto;
-    opacity: 1;
-    z-index: 3;
+margin-top: 14vh;  
+}
+.soundcloud .link{
+    width: 80vw;
+    height:auto;
+    align-content: center;
+    margin: auto;
 }
 
-.soundcloud .link{
-    opacity: 1;
-    z-index: 3;
+/*SHOWS OPENED MENU */
+
+.shows-nav-left, .about-top-nav{
+   position: absolute;
+    top: 3vh;
+    left: 3vw;
+    width: 9%;
+    height: 10%;
+    color: white;
+    font-size: 30px;
+    z-index: 10; 
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+    cursor: pointer;
 }
+
+#eventList{
+    z-index: 10;
+    width:100vw;
+    height: auto;
+    position: absolute;
+    background-color: black;
+    opacity:0.8;  
+    color: white;
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+    
+}
+
+.event{
+ margin-top: 14vh;    
+}
+
 .price{
     width: 200px;
 }
 
+
+/*ABOUT OPENED MENU */
 .about_me{
        z-index: 10;
     width:100vw;
@@ -346,44 +386,8 @@ button:hover{
      margin: auto;
     width: 80vw;
 }
-#eventList{
-    z-index: 10;
-    width:100vw;
-    height: auto;
-     position: absolute;
-    background-color: black;
-    opacity:0.8;  
-    color: white;
-  
- 
-}
-
-.sc{
-margin-top: 10vh;
- 
-    
-}
-.soundcloud .link{
-    width: 80vw;
-    height:auto;
-   align-content: center;
-    margin: auto;
-  
- 
-}
 
 
-
-.shows-nav-left, .about-top-nav{
-   position: absolute;
-    top: 3vh;
-    left: 3vw;
-    width: 9%;
-    height: 10%;
-    color: white;
-    font-size: 30px;
-    z-index: 3; 
-}
 .shop-nav-top-left{
      position: absolute;
     top: 3vh;
@@ -398,6 +402,8 @@ margin-top: 10vh;
     font-weight: 100;
 }
 
+
+/* CROSS */
 .cross-right-music, .cross-right-shows, .cross-right-about, .cross-right-shop{
     position: absolute;
     top: 3vh;
@@ -408,6 +414,7 @@ margin-top: 10vh;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: 20;
+    cursor: pointer;
 }
 .hide{
     display: none;
