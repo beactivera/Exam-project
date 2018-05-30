@@ -41,11 +41,13 @@ TO DO LIST
 
 <!-- homepage - here you will find image of the artist, logo and navigation bar which will be placed in four corners, when you click on of them it will move to particular section -->
 <section class="home-page">
-  
+   
    
     <div class="bg-homepage"></div>
     <div class="logo-hp"></div>
-    <div class="so-me-icons"></div>
+    <div class="so-me-icons">
+        <div class="fb"></div>
+    </div>
     
   
     <!-- navigation section - when you click on div it will display particular content on homepage with background with opacity? -->
@@ -112,7 +114,20 @@ TO DO LIST
    
     
 <section class="about-content">
-    <div class="bg-left"></div>
+     <div class="about_me">
+         <section id="aboutList">
+         <template id="aboutTemplate">
+         <article class="aboutQuestions">
+             
+              <div class="header"></div>
+              
+              <div class= "paragraph"> </div>
+            
+         
+        </article>
+        </template>
+        </section>
+    </div>
     <div class="about-top-nav">about</div> 
     <ul class="nav-desktop">
        <li>music</li>
@@ -121,7 +136,21 @@ TO DO LIST
        <li>shop</li>
    </ul>
     <div id="cross" class="cross-right-about"></div>
-    
+     
+      <div class="video">
+         <section id="videoList">
+         <template id="videoTemplate">
+         <article class="video">
+             
+              <div class="video_eb"></div>
+              
+           
+            
+         
+        </article>
+        </template>
+        </section>
+    </div>
 </section> 
    
    
@@ -155,5 +184,8 @@ TO DO LIST
      <script src="js/soundcloud.js"></script>
       <script src="js/script.js"></script>
       <script src="js/shop.js"></script>
+      <script src="js/about_me.js"></script>
+      
+      
 </body>
 </html>

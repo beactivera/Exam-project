@@ -18,11 +18,22 @@ body{
    
 }
 
+
 .sc{
      margin: auto;
 }
 .price{
     width: 200px;
+}
+
+.about_me{
+       z-index: 10;
+    width:100vw;
+    height: auto;
+     position: absolute;
+    background-color: black;
+    opacity:0.8; 
+    color:white;
 }
 button {
     background-color: white;
