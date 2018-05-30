@@ -35,6 +35,20 @@ body{
     opacity:0.8; 
     color:white;
 }
+
+.video{
+    z-index: 10;
+    width:100vw;
+    height: auto;
+     position: absolute;
+    background-color: red;
+ 
+   
+}
+
+.video_eb{
+    z-index: 50;
+}
 button {
     background-color: white;
     border: none;
