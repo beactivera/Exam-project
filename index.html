@@ -41,22 +41,28 @@ TO DO LIST
 
 <!-- homepage - here you will find image of the artist, logo and navigation bar which will be placed in four corners, when you click on of them it will move to particular section -->
 <section class="home-page">
-
-   
     <div class="bg-homepage"></div>
-    <div class="logo-hp"></div>
-    <div class="so-me-icons">
-        <div class="fb"></div>
+    
+    <div class="navigation_top">
+        <div id="musicNav"class="music-nav">MUSIC</div>
+        <div id="showsNav" class="shows-nav">SHOWS</div>
+    </div>
+    <div class="logo_and_media">
+        <div class="logo-hp"></div>
+        <div class="so-me-icons">
+            <div class="fb"></div>
+            <div class="e-mail"></div>
+            <div class="insta"></div>
+            <div class="sc_icon"></div>
+            <div class="spotify"></div>
+        </div>
     </div>
     
-  
-    <!-- navigation section - when you click on div it will display particular content on homepage with background with opacity? -->
-    <div class="navigation-grid">
-    <div id="musicNav"class="music-nav">MUSIC</div>
-    <div id="showsNav" class="shows-nav">SHOWS</div>
-    <div id="aboutNav"class="about-nav">ABOUT</div>
-    <div id="shopNav" class="shop-nav">SHOP</div>
+    <div class="navigation_bottom">
+        <div id="aboutNav"class="about-nav">ABOUT</div>
+        <div id="shopNav" class="shop-nav">SHOP</div>
     </div>
+
 </section>
    
    
@@ -66,13 +72,11 @@ TO DO LIST
          <template id="scTemplate">
          <article class="sc">
               <div class="link"></div>
-         
         </article>
         </template>
         </section>
     </div>
- 
-  
+
    <div class="music-nav-cont">music</div>
      
    <ul class="nav-desktop">
@@ -88,22 +92,20 @@ TO DO LIST
    
 <section class="shows-content">
        
-         <section id="eventList">
-      <template id="template">
+        <section id="eventList">
+        <template id="template">
         <article class="event">
           <div class="location"></div>
           <h1>TITLE</h1>
-         
-          
           <div class="date"></div>
           <h2 class="price">PRICE</h2>
          
         </article>
-      </template>
-    </section>
+        </template>
+        </section>
         
-     <div class="shows-nav-left">shows</div>
-     <ul class="nav-desktop-right">
+   <div class="shows-nav-left">shows</div>
+   <ul class="nav-desktop-right">
        <li>music</li>
        <li>about</li>
        <li><b><u>shows</u></b></li>
@@ -142,10 +144,7 @@ TO DO LIST
          <article class="video">
              
               <div class="video_eb"></div>
-              
-           
-            
-         
+     
         </article>
         </template>
         </section>
@@ -180,8 +179,8 @@ TO DO LIST
 </section>
    
    
-    <script src="js/main.js"></script>
-     <script src="js/soundcloud.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/soundcloud.js"></script>
       <script src="js/script.js"></script>
       <script src="js/shop.js"></script>
       <script src="js/about_me.js"></script>
