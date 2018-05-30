@@ -62,19 +62,32 @@ background-image: url("/images/eb/hover_black.jpg");
 .navigation_top {
      position: absolute;
      display: grid;
-     width: 90vw;
-     height: 20vh;
+     width: 95vw;
+     height: 10vh;
      grid-template-columns: 1fr 1fr;
-    margin: auto;
-}
+    padding-top: 5vw;
 
+}
+.navigation_top  .music-nav{
+    padding-left: 5vw;
+}
+.navigation_top  .shows-nav{
+    justify-self: center;
+}
 .navigation_bottom{
     position: absolute;
      display: grid;
-     width: 90vw;
-     height: 20vh;
+     width: 95vw;
+     height: 10vh;
      grid-template-columns: 1fr 1fr;
-     top: 75vh;
+     top: 85vh;
+}
+
+.navigation_bottom .about-nav{
+     padding-left: 5vw;
+}
+.navigation_bottom .shop-nav{
+     justify-self: center;
 }
 .logo_and_media{
     position: absolute;
@@ -184,50 +197,49 @@ background-image: url("/images/eb/hover_black.jpg");
 /* NAVIGATION */
 
 .music-nav, .music-nav-cont{
-    position: absolute;
-    top: 3vh;
-    left: 3vw;
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    z-index: 2;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
-    z-index: 10;
     cursor: pointer;
 }
 
+.music-nav:hover{
+    color: black;
+    transition: 0.1s;
+}
 .shows-nav{
-    position: absolute;
-    top: 3vh;
-    right: 17vw;
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    z-index: 3;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
+  
+}
+
+.shows-nav:hover{
+    color: black;
+    transition: 0.1s;
 }
 .about-nav{
-    position: absolute;
-    bottom: 3vh;
-    left: 3vw;
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    z-index: 2;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
+}
+
+.about-nav:hover{
+    color: black;
+    transition: 0.1s;
 }
 .shop-nav{
-    position: absolute;
-    bottom: 3vh; 
-    right: 13vw;
     width: 9%;
     height: 10%;
     color: white;
@@ -238,21 +250,38 @@ background-image: url("/images/eb/hover_black.jpg");
     cursor: pointer;
 }
 
+.shop-nav:hover{
+    color: black;
+    transition: 0.1s;
+}
+
+
+/*MUSIC OPENED MENU */
 
 .soundcloud{
-    z-index: 10;
+    z-index: 2;
     width:100vw;
     height: auto;
      position: absolute;
-    background-color: black;
+     background-color: black;
     opacity:0.8; 
     margin-bottom: 2vh;
     cursor: pointer;
 }
 
+.music-nav-cont{
+    z-index: 100;
+}
 
 .sc{
      margin: auto;
+    opacity: 1;
+    z-index: 3;
+}
+
+.soundcloud .link{
+    opacity: 1;
+    z-index: 3;
 }
 .price{
     width: 200px;
@@ -344,20 +373,6 @@ margin-top: 10vh;
 }
 
 
-
-.music-nav, .music-nav-cont{
-    position: absolute;
-    top: 3vh;
-    left: 3vw;
-    width: 9%;
-    height: 10%;
-    color: white;
-    font-size: 30px;
-    z-index: 2;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
-    font-weight: 100;
-    z-index: 10;
-}
 
 .shows-nav-left, .about-top-nav{
    position: absolute;
