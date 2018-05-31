@@ -537,11 +537,13 @@ font-size: 1.2em;
    width: 100vw;
 }
     
-    .so-me-icons{
+.so-me-icons{
        align-self: flex-end; 
-        width: 100vw;
+        width: 40vw;
         margin-left: 35vw;
         margin-bottom: -10vh;
+        cursor: pointer;
+    z-index: 20;
         
     }
 /* social media icons */
