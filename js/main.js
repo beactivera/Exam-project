@@ -28,6 +28,8 @@ shop.classList.add('hide');
 // function which will move you from intro page to home page
 bgLogo.addEventListener('click', openHomePage);
 
+
+
 function openHomePage(){
     intro.classList.add('hide');
     home.classList.remove('hide');

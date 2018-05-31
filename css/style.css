@@ -8,41 +8,36 @@ body{
 }
 
 /* intro */
-
-.logo-bg{
+.background{
+    background-color: black;
+    z-index: 3;
+    width:100vw;
+    height:100vh;
+}
+.background .logo-bg{
     position: absolute;
     display: block;
     width: 100%;
     height: 100%;
-    background-image: url(../images/eb/landing_page.jpg);
+    background-image: url(../images/eb/new_landing.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 2; /* change later */
-    background-color: black;
+    cursor: pointer;
+    margin-top: 3vh;
+    z-index: 2; /* change later */  
 }
 
 .logo-bg:hover{
-background-image: url("/images/eb/hover_black.jpg");
+background-image: url(../images/eb/new_hover.png);
     z-index:30;
+     background-position: center;
+    background-repeat: no-repeat;
+  
+  
     
 }
 
-.left-side-bg{
-    position: absolute;
-    width: 50vw;
-    height: 100vh;
-    background-color: black;
-    z-index:2; /* later on, we need to change this parametr to 3 or 4 because underneath it has to be content for website - you need to check how many 'layers' do we need*/
-}   
-.right-side-bg{   
-    position: absolute;
-    left: 50vw;
-    width: 50vw;
-    height: 100vh;
-    background-color: black; 
-    z-index: 2; /* change later */
-}
+
 
 /* mobile first */
 .home-page{
@@ -101,8 +96,8 @@ background-image: url("/images/eb/hover_black.jpg");
 }
 
 .logo_and_media .logo-hp{
-    width:100%;
-    height: 100%;
+    width:120%;
+    height: 120%;
     background-image: url(../images/final_logo_outlines.png);
     background-position: center;
     background-size: cover;
@@ -269,7 +264,7 @@ background-image: url("/images/eb/hover_black.jpg");
     height: auto;
      position: absolute;
      background-color: black;
-    opacity:0.8; 
+    opacity:1; 
     cursor: pointer;
     top: -3vh;
 }
@@ -310,7 +305,7 @@ margin-top: 14vh;
     height: auto;
     position: absolute;
     background-color: black;
-    opacity:0.8;  
+    opacity:1;  
     color: white;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
@@ -441,7 +436,8 @@ button:hover{
 /* desktop  */ 
 @media only screen and (min-width: 700px) {
  
-    
+ 
+
 .soundcloud{
     width:50vw;
     height: auto;
@@ -504,14 +500,7 @@ button:hover{
  
  
 }
-    .bg-homepage{
-        background-image: url(../images/eb/homepage.jpg);
-         position: fixed;
-    }
-    
-    .logo-hp{
-        display: none;
-    }
+   
     .bg-left{
     width: 50vw;
     z-index: 2;
@@ -578,4 +567,63 @@ button:hover{
         z-index: 20;
         cursor:pointer;
     }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+.left-side-bg{
+    animation: slideout-left 1s;
+    position: absolute;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    z-index:4; /* later on, we need to change this parametr to 3 or 4 because underneath it has to be content for website - you need to check how many 'layers' do we need*/
+}   
+.right-side-bg{ 
+    animation: slideout-rigt 1s;
+    position: absolute;
+    left: 50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: black; 
+    z-index: 4; /* change later */
+}
+    
+@keyframes slideout-left {
+  0%   { opacity: 1; }
+  100% { opacity: 0; }
+}
+.background .logo-bg{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/eb/new_landing.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-top: 0;
+    z-index: 5; /* change later */  
+}
+
+.logo-bg:hover{
+background-image: url(../images/eb/new_hover.png);
+    z-index:30;
+     background-position: center;
+    background-repeat: no-repeat;
+   
+background-size: contain;
+}
+
+.bg-homepage{
+        background-image: url(../images/eb/homepage.jpg);
+         position: fixed;
+    }
+    
+    .logo-hp{
+        display: none;
+    }  
+     
+    
 }
