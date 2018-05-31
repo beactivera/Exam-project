@@ -376,6 +376,7 @@ button:hover{
     background-color: black;
     opacity: 1;  
     padding-top: 15vh;
+    margin-top: -3vh;
  
 }
 
@@ -404,7 +405,7 @@ button:hover{
 }
 
 .button {
-   margin-left: 10vw;
+   
     background-color: white;
     border: none;
     color: black;
@@ -413,8 +414,8 @@ button:hover{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    width: 140px;
+    margin-left: 15vw;
+    width: 150px;
     cursor: pointer;
     border-radius: 20px;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
@@ -428,29 +429,22 @@ button:hover{
 }
 /*ABOUT OPENED MENU */
 .about_me{
-       z-index: 10;
+    z-index: 10;
     width:100vw;
     height: auto;
      position: absolute;
     background-color: black;
-    opacity:0.8; 
+    opacity:1; 
     color:white;
+    margin-top: -3vh;
+    padding-top:15vh;
 }
 
 .video{
     z-index: 10;
     width:100vw;
-    height: auto;
-     position: absolute;
-    background-color: red;
- 
-   
+    height: auto;  
 }
-
-.video_eb{
-    z-index: 50;
-}
-
 
 
 /* CROSS */
@@ -529,8 +523,8 @@ button:hover{
     
 }
 .soundcloud .link{
-    width: 270px;
-    height: 270px;
+    width: 20vw;
+    height: 20vw;
     overflow-y: hidden;
    
  
