@@ -311,6 +311,7 @@ margin-top: 14vh;
     font-weight: 100;
     align-content: center;
     margin-top: -3vh;
+    padding-top: 15vh;
     
     
 }
@@ -323,15 +324,22 @@ margin-top: 14vh;
     z-index: 20;
     width: 80vw;
      height: auto;
-    margin-top:15vh;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
      margin-left: 5vw;
-     padding: 5vw;
+     padding: 3vw;
      display: grid;
      grid-template-columns: 1fr 1fr;
      
 }
 
+
+.event .column_1{
+    justify-self: center;
+}
+
+.event .column_2{
+    place-self: center;
+}
 button {
     background-color: black;
     border: none;
@@ -342,10 +350,11 @@ button {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    width: 200px;
+    width: 120px;
     cursor: pointer;
     border-radius: 20px;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
+   
 }
 
 button:hover{
@@ -357,7 +366,66 @@ button:hover{
     width: 200px;
 }
 
+/*SHOP OPENED MENU */
 
+.shop{
+     z-index: 10;
+    width:100vw;
+    height: auto;
+     position: absolute;
+    background-color: black;
+    opacity: 1;  
+    padding-top: 15vh;
+ 
+}
+
+.shop .oneitem{
+    opacity: 1;
+    align-self: center;
+    justify-content: center;
+     margin: auto;
+    width: 80vw;
+    padding-bottom: 15vh;
+}
+
+
+.shop-nav-top-left{
+     position: absolute;
+    top: 3vh;
+    left: 3vw;
+    width: 9%;
+    height: 10%;
+    color: white;
+    font-size: 30px;
+    z-index: 3;
+    z-index: 10;
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.button {
+   margin-left: 10vw;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+   
+}
+
+.button:hover{
+   background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 /*ABOUT OPENED MENU */
 .about_me{
        z-index: 10;
@@ -383,38 +451,6 @@ button:hover{
     z-index: 50;
 }
 
-.shop{
-     z-index: 10;
-    width:100vw;
-    height: auto;
-     position: absolute;
-    background-color: black;
-    opacity:0.8;  
-    position: sticky;
-}
-
-.shop .oneitem{
-    opacity: 1;
-    align-self: center;
-    justify-content: center;
-     margin: auto;
-    width: 80vw;
-}
-
-
-.shop-nav-top-left{
-     position: absolute;
-    top: 3vh;
-    left: 3vw;
-    width: 9%;
-    height: 10%;
-    color: white;
-    font-size: 30px;
-    z-index: 3;
-    z-index: 10;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
-    font-weight: 100;
-}
 
 
 /* CROSS */
@@ -568,7 +604,9 @@ button:hover{
         cursor:pointer;
     }
 }
-
+.date{
+    color: black;
+}
 @media only screen and (min-width: 1000px) {
     
 .left-side-bg{

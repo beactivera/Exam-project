@@ -36,12 +36,12 @@ function showSingleConcert(aConcert){
     
 
     
-    var day= aConcert.acf.date.substring(6.8);
-    var month= aConcert.acf.date.substring(2.4);
-    var year= aConcert.acf.date.substring(0.2);
+    var Dataday= aConcert.acf.date.substring(6,8);
+    var month= aConcert.acf.date.substring(4,6);
+    var year= aConcert.acf.date.substring(0,4);
 
     
-    clone.querySelector(".date").textContent = day  + month + year;
+    clone.querySelector(".date").textContent = Dataday  + "." +  month + "." + year;
     
     
    clone.querySelector(".location").textContent = aConcert.acf.location;
@@ -50,8 +50,7 @@ function showSingleConcert(aConcert){
     
   
     
-  clone.querySelector(".price").textContent=aConcert.acf.price;
-    
+ 
 
 
 

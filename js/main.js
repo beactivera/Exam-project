@@ -55,7 +55,7 @@ function gotoMusic(){
     aboutNav.style.display = "none";
     showsNav.style.display = "none";
     shopNav.style.display = "none";
-    hplogo.style.display = "none";
+   
 }
 
 rightCloseMusic.addEventListener('click', backToHomePageR)
@@ -71,7 +71,7 @@ function backToHomePageR(){
     aboutNav.style.display = "block";
     showsNav.style.display = "block";
     shopNav.style.display = "block";
-    hplogo.style.display = "block";
+    
 }
 
 /////////////////////////////////////////////////////
@@ -90,7 +90,7 @@ function gotoShows(){
     shopNav.style.display = "none";
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
-    hplogo.style.display = "none";
+
 }
 
 rightCloseShows.addEventListener('click', backToHomePageL)
@@ -106,7 +106,7 @@ function backToHomePageL(){
     shopNav.style.display = "block";
     musicNav.style.display = "block";
     aboutNav.style.display = "block";
-    hplogo.style.display = "none";
+   
 }
 
 /////////////////////////////////////////////////////
