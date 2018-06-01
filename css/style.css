@@ -543,7 +543,7 @@ background: rgba(0, 0, 0, 0.5);
     #shopList{
           display: grid;
         grid-template-columns: 1fr 1fr;
-        border: 1px solid yellow;
+      
     }
 .shop .oneitem {
     margin: auto;
@@ -572,8 +572,8 @@ background: rgba(0, 0, 0, 0.5);
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 15vw;
-    width: 150px;
+    margin-left: 5vw;
+    width: 20vw;
     cursor: pointer;
     border-radius: 20px;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
@@ -588,8 +588,16 @@ background: rgba(0, 0, 0, 0.5);
     color: white;
     border: 1px solid white;
 }
-
+    .cross-right-shop{
+        width 2%;
+        height: 2%;
+    }
+  /* about tablet */
+    .about_me {
+    background: rgba(0, 0, 0, 0.5);
+   
     
+}
     
 }
 
@@ -871,11 +879,7 @@ background: rgba(0, 0, 0, 0.5);
     
     
 /*about  deskop*/  
-.about_me {
-    background: rgba(0, 0, 0, 0.5);
-   
-    
-}
+
     
 .about_me .video {
     margin-top: 20vh;
@@ -994,6 +998,9 @@ background: rgba(0, 0, 0, 0.5);
     z-index: 20;
     cursor: pointer;
 }
+    .cross-right-shop{
+        width: 5%;
+    }
     
     .cross-right-about{
         width: 3%;
