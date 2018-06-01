@@ -439,6 +439,11 @@ button:hover {
     height: auto;
 }
 
+ .wp-video-shortcode{
+    width: 100vw;
+     height: auto;
+    }
+
 
 /* CROSS */
 .cross-right-music,
@@ -628,8 +633,7 @@ button:hover {
         height: 20vw;
         overflow-y: hidden;
     }
-
-    
+ 
 /*events deskop*/
 #eventList {
     z-index: 10;
@@ -649,10 +653,11 @@ button:hover {
     width: 30vw;
     height: auto;
     margin-bottom: 5vh;
-    padding: 5vw;
+    padding: 2vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
+    margin-left: 8vw;
 }
 .scroll {
     position: fixed;
@@ -696,17 +701,10 @@ button:hover {
     grid-template-columns: 1fr;
     width: 20vw;
     height: auto; 
+    
     }   
-#scList{
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 10vh;  
-}
-.soundcloud .link{
-    width: 20vw;
-    height: 20vw;
-    overflow-y: hidden;
-} 
+    
+
     .bg-left{
     width: 50vw;
     z-index: 2;
@@ -780,13 +778,14 @@ button:hover {
     height: auto;
      grid-column-start: 2;
     grid-column-end: 2;
-  width: 50vw;    
+  width: 50vw; 
+    
 }
  .wp-video-shortcode{
-          height: 100vh;
-    width: auto;
+    width: 50vw;
+     height: auto;
     }
-    .about_me .aboutList{
+    .about_me #aboutList{
      grid-column-start: 1;
         grid-column-end: 2;
         position: absolute;
