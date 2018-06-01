@@ -770,8 +770,49 @@ button:hover {
     margin: auto;
 
 }
+/*about  deskop*/
+    
+.about_me {
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: -3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.about_me h1 {
+    font-size: 1.2em;
+}
 
+.about_me p {
+    font-size: 1em;
+}
+
+.about_me .video {
+    z-index: 10;
+    height: auto;
+     grid-column-start: 2;
+    grid-column-end: 2;
+  width: 50vw;
+    
+       
+}
+    .wp-video-shortcode{
+          height: 100vh;
+    width: auto;
+    }
+
+    
+    
+    .about_me .aboutList{
+     grid-column-start: 1;
+        grid-column-end: 2;
+        position: absolute;
+        z-index: 12;
+        margin-top: -50vh;
+    }
 /* navigation */
 
 .nav-desktop {

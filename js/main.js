@@ -124,6 +124,8 @@ function gotoAbout(){
     shop.classList.add('hide');
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
+    showsNav.style.display = "none";
+    shopNav.style.display = "none";
     
 }
 
