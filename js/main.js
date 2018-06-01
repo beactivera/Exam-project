@@ -161,6 +161,8 @@ function gotoShop(){
     shop.classList.remove('hide');
     showsNav.style.display = "none";
     shopNav.style.display = "none";
+     musicNav.style.display = "none";
+    aboutNav.style.display = "none";
     
 }
 

@@ -107,6 +107,7 @@ body {
     background-repeat: no-repeat;
     align-self: center;
     justify-self: center;
+   
 }
 
 
@@ -439,6 +440,11 @@ button:hover {
     height: auto;
 }
 
+ .wp-video-shortcode{
+    width: 100vw;
+     height: auto;
+    }
+
 
 /* CROSS */
 .cross-right-music,
@@ -463,7 +469,9 @@ button:hover {
 
 
 /* desktop  */ 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
+   
+    /* music nav  */
 .soundcloud{
     width:50vw;
     height: auto;
@@ -471,21 +479,125 @@ button:hover {
      position: sticky;
     height:200vh; 
 }  
- #eventList{
+
+.music-nav-cont {
+    top: 5vh;
     z-index: 10;
-    width:50vw;
+    font-size: 40px;
+    
+} 
+    
+ #scList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10vh;
+    }
+    .soundcloud {
+        width: 100vw;
+        height: auto;
+        padding-bottom: 3vh;
+        position: sticky;
+        height: auto;
+        margin-top: -10vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 6;
+    }
+
+    .soundcloud .link {
+        width: 40vw;
+        height: 40vw;
+        overflow-y: hidden;
+    }
+    
+    
+    /* shows nav  */
+    
+     #eventList{
+    z-index: 10;
+    width:100vw;
     height: auto;
-     position: absolute;
-    background-color: black;
-    opacity:0.8;  
+     position: absolute;  
     color: white;
-    right:0; 
+background: rgba(0, 0, 0, 0.5);
+       
+}
+   
+    .event {
+  
+    width: 60vw;
+    height: auto;
+     margin-left: 20vw;
+     
+}
+     /* shop nav  */
+    .shop{
+    z-index: 10;
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 15vh;
+    margin-top: -3vh;
+      
+}
+    #shopList{
+          display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid yellow;
+    }
+.shop .oneitem {
+    margin: auto;
+    width: 40vw;
+  
+}
+.shop-nav-top-left {
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+    width: 9%;
+    height: 10%;
+    color: white;
+    font-size: 30px;
+    z-index: 3;
+    z-index: 10;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15vw;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+}
+.button:hover{
+   background-color: black;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
 }
 
-/* desktop  */
+.button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 
-@media only screen and (min-width: 700px) {}
+    
+    
+}
 
+
+ 
+    
+
+             /*  DESKOP */
 @media only screen and (min-width: 1000px) {
     
     
@@ -632,8 +744,7 @@ button:hover {
         height: 20vw;
         overflow-y: hidden;
     }
-
-    
+ 
 /*events deskop*/
 #eventList {
     z-index: 10;
@@ -653,10 +764,11 @@ button:hover {
     width: 30vw;
     height: auto;
     margin-bottom: 5vh;
-    padding: 5vw;
+    padding: 2vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
+    margin-left: 8vw;
 }
 .scroll {
     position: fixed;
@@ -700,17 +812,10 @@ button:hover {
     grid-template-columns: 1fr;
     width: 20vw;
     height: auto; 
+    
     }   
-#scList{
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 10vh;  
-}
-.soundcloud .link{
-    width: 20vw;
-    height: 20vw;
-    overflow-y: hidden;
-} 
+    
+
     .bg-left{
     width: 50vw;
     z-index: 2;
@@ -725,13 +830,15 @@ button:hover {
         color:white;
         top: 5vh;
         z-index: 20;
+        
     }  
  .nav-desktop-right{
         position: absolute;
         color:white;
         top: 5vh;
         z-index: 30;
-        right: 5vw;    
+        right: 5vw;   
+     
     }
     .nav-desktop li{
         padding-left: 30px;
@@ -765,38 +872,38 @@ button:hover {
     
 /*about  deskop*/  
 .about_me {
-    width: 90vw;
-    background: rgba(0, 0, 0, 0.8);
-    margin-top: -3vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background: rgba(0, 0, 0, 0.5);
+   
+    
 }
+    
+.about_me .video {
+    margin-top: 20vh;
+    position: fixed;
+    width: 50vw;
+    right:0;
+    float: right;
+    
+ 
+}
+ .wp-video-shortcode{
+     width: 50vw;
+     height: auto;
+  
+    }
+ .about_me #aboutList{ 
+     width: 40vw;
+     
+        
+    }
 .about_me h1 {
     font-size: 1.2em;
 }
 .about_me p {
     font-size: 1em;
 }
-.about_me .video {
-    z-index: 10;
-    height: auto;
-     grid-column-start: 2;
-    grid-column-end: 2;
-  width: 50vw;    
-}
- .wp-video-shortcode{
-          height: 100vh;
-    width: auto;
-    }
-    .about_me .aboutList{
-     grid-column-start: 1;
-        grid-column-end: 2;
-        position: absolute;
-        z-index: 12;
-        margin-top: -50vh;
-    }
+
+
     
     
 /* navigation */
@@ -871,8 +978,7 @@ button:hover {
 .shop-nav-top-left {
     display: none;
 }
-.cross-right-music,
-.cross-right-about {
+.cross-right-music{
     left: 45vw;
     width: 3%;
     height: 10%;
@@ -888,6 +994,16 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
+    
+    .cross-right-about{
+        width: 3%;
+    height: 10%;
+    z-index: 20;
+    cursor: pointer;
+        right: 5vw;
+        top: 7vh;
+        position: fixed;
+    }
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
 z-index:30;
