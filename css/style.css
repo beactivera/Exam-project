@@ -1,19 +1,34 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    top:0;
+    top: 0;
     left: 0;
     overflow-x: hidden;
-  
+
+}
+
+/*spotify*/
+
+.spotify_page {
+
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/spotify_fake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 /* intro */
-.background{
+
+.background {
     background-color: black;
     z-index: 3;
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
 }
-.background .logo-bg{
+
+.background .logo-bg {
     position: absolute;
     display: block;
     width: 100%;
@@ -23,69 +38,104 @@ body{
     background-repeat: no-repeat;
     cursor: pointer;
     margin-top: 3vh;
-    z-index: 2; /* change later */  
+    z-index: 2;
+    /* change later */
 }
+<<<<<<< HEAD
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
     z-index:30;
      background-position: center;
     background-repeat: no-repeat; 
+=======
+
+.logo-bg:hover {
+    background-image: url(../images/eb/new_hover.png);
+    z-index: 30;
+    background-position: center;
+    background-repeat: no-repeat;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 /* mobile first */
-.home-page{
-     position: relative;
-        width: 100vw;
-        height: auto;
+
+.home-page {
+    position: relative;
+    width: 100vw;
+    height: auto;
 }
+<<<<<<< HEAD
 .bg-homepage{
+=======
+
+.bg-homepage {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 100vw;
     height: 100vh;
     background-image: url(../images/noah_proffakuva.jpg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     position: fixed;
 }
+
 .navigation_top {
-     position: absolute;
-     display: grid;
-     width: 95vw;
-     height: 10vh;
-     grid-template-columns: 1fr 1fr;
+    position: absolute;
+    display: grid;
+    width: 90vw;
+    height: 10vh;
+    grid-template-columns: 1fr 1fr;
     padding-top: 5vw;
 
 }
-.navigation_top  .music-nav{
+
+.navigation_top .music-nav {
     padding-left: 5vw;
 }
-.navigation_top  .shows-nav{
+
+.navigation_top .shows-nav {
     justify-self: center;
+    padding-right: 5vw;
 }
-.navigation_bottom{
-    position: absolute;
-     display: grid;
-     width: 95vw;
-     height: 10vh;
-     grid-template-columns: 1fr 1fr;
-     top: 85vh;
-}
-.navigation_bottom .about-nav{
-     padding-left: 5vw;
-}
-.navigation_bottom .shop-nav{
-     justify-self: center;
-}
-.logo_and_media{
+
+.navigation_bottom {
     position: absolute;
     display: grid;
-     width: 90vw;
-     height: 60vh;
-     grid-template-columns: 90% 10%;
+    width: 95vw;
+    height: 10vh;
+    grid-template-columns: 1fr 1fr;
+    top: 85vh;
+}
+<<<<<<< HEAD
+.navigation_bottom .about-nav{
+     padding-left: 5vw;
+=======
+
+.navigation_bottom .about-nav {
+    padding-left: 5vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+}
+
+.navigation_bottom .shop-nav {
+    justify-self: center;
+}
+
+.logo_and_media {
+    position: absolute;
+    display: grid;
+    width: 90vw;
+    height: 60vh;
+    grid-template-columns: 90% 10%;
     margin: auto;
     top: 15vh;
-    padding: 5vw;   
+    padding: 5vw;
 }
+<<<<<<< HEAD
 .logo_and_media .logo-hp{
     width:120%;
+=======
+
+.logo_and_media .logo-hp {
+    width: 120%;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: 120%;
     background-image: url(../images/final_logo_outlines.png);
     background-position: center;
@@ -94,200 +144,310 @@ background-image: url(../images/eb/new_hover.png);
     align-self: center;
     justify-self: center;
 }
+
 /* social media icons */
+
 .so-me-icons {
-   padding-top: 10vh;
+    padding-top: 10vh;
+
 }
+<<<<<<< HEAD
 .logo_and_media .so-me-icons .fb{
+=======
+
+
+.logo_and_media .so-me-icons .fb {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
     background-image: url(../images/icons/fb_white.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 2vh;
+<<<<<<< HEAD
     cursor: pointer; 
 }
 .logo_and_media .so-me-icons .fb:hover{
   background-image: url(../images/icons/fb_black.png);  
+=======
+    cursor: pointer;
+
 }
-.logo_and_media .so-me-icons .e-mail{
+
+.logo_and_media .so-me-icons .fb:hover {
+    background-image: url(../images/icons/fb_black.png);
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+}
+
+.logo_and_media .so-me-icons .e-mail {
     display: block;
     width: 35px;
     height: 35px;
     background-image: url(../images/icons/email_white.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 2vh;
     cursor: pointer;
 }
 
-.logo_and_media .so-me-icons .e-mail:hover{
-  background-image: url(../images/icons/email_black.png);  
+.logo_and_media .so-me-icons .e-mail:hover {
+    background-image: url(../images/icons/email_black.png);
 }
-.logo_and_media .so-me-icons .insta{
+
+.logo_and_media .so-me-icons .insta {
     display: block;
     width: 35px;
     height: 35px;
     background-image: url(../images/icons/insta_white.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .logo_and_media .so-me-icons .insta:hover{
+=======
+
+.logo_and_media .so-me-icons .insta:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-image: url(../images/icons/insta_black.png);
 }
-.logo_and_media .so-me-icons .sc_icon{
+
+.logo_and_media .so-me-icons .sc_icon {
     display: block;
     width: 35px;
     height: 35px;
     background-image: url(../images/icons/soundcloud_icon.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .logo_and_media .so-me-icons .sc_icon:hover{
     background-image: url(../images/icons/soundcloud_black.png);
 }
 .logo_and_media .so-me-icons .spotify{
+=======
+
+.logo_and_media .so-me-icons .sc_icon:hover {
+    background-image: url(../images/icons/soundcloud_black.png);
+}
+
+.logo_and_media .so-me-icons .spotify {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
     background-image: url(../images/icons/spotify_white.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .logo_and_media .so-me-icons .spotify:hover{
+=======
+
+.logo_and_media .so-me-icons .spotify:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-image: url(../images/icons/spotify_black.png);
 }
 /* NAVIGATION */
+<<<<<<< HEAD
 .music-nav, .music-nav-cont{
+=======
+
+.music-nav,
+.music-nav-cont {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .music-nav:hover{
+=======
+
+.music-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-.shows-nav{
+
+.shows-nav {
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
+<<<<<<< HEAD
     cursor: pointer; 
 }
 .shows-nav:hover{
+=======
+    cursor: pointer;
+
+}
+
+.shows-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-.about-nav{
+
+.about-nav {
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .about-nav:hover{
+=======
+
+.about-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-.shop-nav{
+
+.shop-nav {
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
     z-index: 2;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .shop-nav:hover{
+=======
+
+.shop-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
 /*MUSIC OPENED MENU */
+<<<<<<< HEAD
 .music-nav-cont{
+=======
+
+.music-nav-cont {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 3;
     position: absolute;
     margin-left: 10vw;
 }
-.soundcloud{
+
+.soundcloud {
     z-index: 2;
-    width:100vw;
+    width: 100vw;
     height: auto;
-     position: absolute;
-     background-color: black;
-    opacity:1; 
+    position: absolute;
+    background-color: black;
+    opacity: 1;
     cursor: pointer;
     top: -3vh;
 }
+<<<<<<< HEAD
 .scList{
      opacity: 1; 
 }
 .sc{
 margin-top: 14vh;  
+=======
+
+.scList {
+    opacity: 1;
 }
-.soundcloud .link{
+
+.sc {
+    margin-top: 14vh;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+}
+
+.soundcloud .link {
     width: 80vw;
-    height:auto;
+    height: auto;
     align-content: center;
     margin: auto;
 }
 /*SHOWS OPENED MENU */
+<<<<<<< HEAD
 .shows-nav-left, .about-top-nav{
    position: absolute;
+=======
+
+.shows-nav-left,
+.about-top-nav {
+    position: absolute;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 5vw;
     width: 9%;
     height: 10%;
     color: white;
     font-size: 30px;
-    z-index: 10; 
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    z-index: 10;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
 #eventList{
+=======
+
+#eventList {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
-    width:100vw;
+    width: 100vw;
     height: auto;
     position: absolute;
     background-color: black;
-    opacity:1;  
+    opacity: 1;
     color: white;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     align-content: center;
     margin-top: -3vh;
     padding-top: 15vh;
+<<<<<<< HEAD
 }
  .event{
+=======
+
+
+}
+
+.event {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
-    color:black;
+    color: black;
     border-radius: 40px;
     opacity: 1;
     z-index: 20;
     width: 80vw;
-     height: auto;
+    height: auto;
     margin-bottom: 5vh;
+<<<<<<< HEAD
      margin-left: 5vw;
      padding: 3vw;
      display: grid;
@@ -297,8 +457,24 @@ margin-top: 14vh;
     justify-self: center;
 }
 .event .column_2{
+=======
+    margin-left: 5vw;
+    padding: 3vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.event .column_1 {
+    justify-self: center;
+}
+
+.event .column_2 {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     place-self: center;
 }
+
 button {
     background-color: black;
     border: none;
@@ -312,38 +488,65 @@ button {
     width: 120px;
     cursor: pointer;
     border-radius: 20px;
+<<<<<<< HEAD
     font-family: "Futura","Helvetica", "Roboto", sans-serif; 
+=======
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 
-button:hover{
-   background-color: white;
+button:hover {
+    background-color: white;
     color: black;
     border: 1px solid black;
 }
-.price{
+
+.price {
     width: 200px;
 }
 /*SHOP OPENED MENU */
+<<<<<<< HEAD
 .shop{
      z-index: 10;
     width:100vw;
+=======
+
+.shop {
+    z-index: 10;
+    width: 100vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: auto;
-     position: absolute;
+    position: absolute;
     background-color: black;
-    opacity: 1;  
+    opacity: 1;
     padding-top: 15vh;
     margin-top: -3vh;
+<<<<<<< HEAD
 }
 .shop .oneitem{
+=======
+
+}
+
+.shop .oneitem {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     opacity: 1;
     align-self: center;
     justify-content: center;
-     margin: auto;
+    margin: auto;
     width: 80vw;
     padding-bottom: 15vh;
 }
+<<<<<<< HEAD
 .shop-nav-top-left{
      position: absolute;
+=======
+
+
+.shop-nav-top-left {
+    position: absolute;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 3vw;
     width: 9%;
@@ -352,10 +555,14 @@ button:hover{
     font-size: 30px;
     z-index: 3;
     z-index: 10;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
 }
 .button {
+<<<<<<< HEAD
+=======
+
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
     border: none;
     color: black;
@@ -368,35 +575,67 @@ button:hover{
     width: 150px;
     cursor: pointer;
     border-radius: 20px;
+<<<<<<< HEAD
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
 }
 .button:hover{
    background-color: black;
+=======
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+
+}
+
+.button:hover {
+    background-color: black;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: white;
     border: 1px solid white;
 }
+
 /*ABOUT OPENED MENU */
-.about_me{
+
+.about_me {
     z-index: 10;
-    width:100vw;
+    width: 90vw;
     height: auto;
-     position: absolute;
+    position: absolute;
     background-color: black;
-    opacity:1; 
-    color:white;
+    opacity: 1;
+    color: white;
     margin-top: -3vh;
-    padding-top:15vh;
+    padding-top: 15vh;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
+<<<<<<< HEAD
 .video{
+=======
+
+.about_me h1 {
+    font-size: 1.2em;
+}
+
+.about_me p {
+    font-size: 1em;
+}
+
+.video {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
-    width:100vw;
-    height: auto;  
+    width: 100vw;
+    height: auto;
 }
 /* CROSS */
-.cross-right-music, .cross-right-shows, .cross-right-about, .cross-right-shop{
+
+.cross-right-music,
+.cross-right-shows,
+.cross-right-about,
+.cross-right-shop {
     position: absolute;
     top: 3vh;
-    right: 7vw;    
+    right: 7vw;
     width: 10%;
     height: 5%;
     background-image: url(../images/cross-white.svg);
@@ -405,9 +644,11 @@ button:hover{
     z-index: 20;
     cursor: pointer;
 }
-.hide{
+
+.hide {
     display: none;
 }
+<<<<<<< HEAD
 /* desktop  */ 
 @media only screen and (min-width: 700px) {
 .soundcloud{
@@ -428,20 +669,247 @@ button:hover{
     right:0; 
 }
 .shop{
+=======
+
+/* desktop  */
+
+@media only screen and (min-width: 700px) {}
+
+@media only screen and (min-width: 1000px) {
+    /*intro deskop*/
+    .left-side-bg {
+        animation: slideout-left 1s;
+        position: absolute;
         width: 50vw;
-          right: 0;
+        height: 100vh;
+        background-color: black;
+        z-index: 4;
+        /* later on, we need to change this parametr to 3 or 4 because underneath it has to be content for website - you need to check how many 'layers' do we need*/
     }
+    .right-side-bg {
+        animation: slideout-rigt 1s;
+        position: absolute;
+        left: 50vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+        width: 50vw;
+        height: 100vh;
+        background-color: black;
+        z-index: 4;
+        /* change later */
+    }
+<<<<<<< HEAD
     .shopItems .picture{
-        width: 20vw;
-        height:20vh;
-        opacity:1;
+=======
+
+    @keyframes slideout-left {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
     }
-#shopList{
+    /* grid navigation + logo and social media on top of bg image */
+    .navigation_top {
+        position: absolute;
+        display: grid;
+        width: 90vw;
+        height: 10vh;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .navigation_top .shows-nav {
+        justify-self: end;
+        padding-right: 5vw;
+    }
+
+    .navigation_top .music-nav {
+        justify-self: start;
+        padding-left: 5vw;
+    }
+    .navigation_bottom {
+        position: absolute;
+        display: grid;
+        width: 90vw;
+        height: 10vh;
+        grid-template-columns: 1fr 1fr;
+        top: 85vh;
+    }
+
+    .navigation_bottom .about-nav {
+        padding-left: 5vw;
+        justify-self: start;
+    }
+    .navigation_bottom .shop-nav {
+        justify-self: end;
+        padding-right: 5vw;
+    }
+
+    .logo_and_media {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
+
+    .logo_and_media .logo-hp {
+        width: 100vw;
+    }
+
+    .so-me-icons {
+        align-self: flex-end;
+        width: 40vw;
+        margin-left: 35vw;
+        bottom: 5vh;
+        cursor: pointer;
+        z-index: 4;
+        position: fixed;
+
+    }
+    /* social media icons deskop*/
+    .so-me-icons a {
+        display: inline-block;
+        padding: 0.5vw;
+
+    }
+
+
+    .background .logo-bg {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/eb/new_landing.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        cursor: pointer;
+        margin-top: 0;
+        z-index: 5;
+        /* change later */
+    }
+
+    .logo-bg:hover {
+        background-image: url(../images/eb/new_hover.png);
+        z-index: 30;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        background-size: contain;
+    }
+
+    .bg-homepage {
+        background-image: url(../images/eb/homepage.jpg);
+        position: fixed;
+    }
+
+    .logo-hp {
+        display: none;
+    }
+
+
+    /* music deskop*/
+    #scList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10vh;
+
+
+    }
+    .soundcloud {
+        width: 50vw;
+        height: auto;
+        padding-bottom: 3vh;
+        position: sticky;
+        height: auto;
+        margin-top: -10vh;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 6;
+
+    }
+
+    .soundcloud .link {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+        width: 20vw;
+        height: 20vw;
+        overflow-y: hidden;
+
+    }
+
+
+
+
+/*events deskop*/
+
+#eventList {
+    z-index: 10;
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    right: 0;
+
+}
+
+.event {
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    opacity: 1;
+    z-index: 20;
+    width: 30vw;
+    height: auto;
+    margin-bottom: 5vh;
+    padding: 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10vh; 
+    align-content: center;
+
+
+}
+
+
+.scroll {
+    position: fixed;
+    width: 50vw;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 30;
+    animation-delay:
+}
+
+.scroll .arrow {
+    background-image: url(../images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8vw;
+    height: 8vh;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*shop deskop*/
+
+.shop {
+    width: 50vw;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+.shop #shopList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5vh;
     height: auto;
     color: black;
+<<<<<<< HEAD
     }
 .oneitem{
     display: grid;
@@ -497,71 +965,177 @@ button:hover{
     }
     .music-nav{
         font-size: 40px;
+=======
+}
+
+#shopList .oneitem {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20vw;
+    height: 25vw;
+    overflow-y: hidden;
+
+}
+
+.button {
+
+  
+    margin-left: 0;
+    margin: auto;
+
+}
+/*about  deskop*/
+    
+.about_me {
+    width: 90vw;
+    background: rgba(0, 0, 0, 0.8);
+    margin-top: -3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_me h1 {
+    font-size: 1.2em;
+}
+
+.about_me p {
+    font-size: 1em;
+}
+
+.about_me .video {
+    z-index: 10;
+    height: auto;
+     grid-column-start: 2;
+    grid-column-end: 2;
+  width: 50vw;
+    
+       
+}
+    .wp-video-shortcode{
+          height: 100vh;
+    width: auto;
     }
-    .shows-nav{
+
+    
+    
+    .about_me .aboutList{
+     grid-column-start: 1;
+        grid-column-end: 2;
+        position: absolute;
+        z-index: 12;
+        margin-top: -50vh;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+    }
+/* navigation */
+
+.nav-desktop {
+    position: absolute;
+    color: white;
+    top: 5vh;
+    z-index: 20;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+    font-weight: 2em;
+}
+
+.nav-desktop-right {
+    position: absolute;
+    color: white;
+    top: 4vh;
+    z-index: 30;
+    right: 5vw;
+    font-family: "Futura", "Helvetica", "Roboto", sans-serif;
+    font-weight: 100;
+    font-weight: 2em;
+
+
+}
+
+.nav-desktop li {
+    padding-left: 30px;
+    display: inline-block;
+    list-style-type: none;
+    color: gainsboro;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nav-desktop li:hover {
+    color: white;
+}
+
+.nav-desktop li u {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-desktop-right li {
+    padding-left: 30px;
+    display: inline-block;
+    list-style-type: none;
+    color: gainsboro;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.nav-desktop-right li:hover {
+    color: white;
+}
+
+.nav-desktop-right li b {
+    color: white;
+    text-decoration: none;
+}
+
+.music-nav {
+    font-size: 40px;
+}
+
+.shows-nav {
     left: 90vw;
     font-size: 40px;
-   }
-    .about-nav{
+}
+
+.about-nav {
     top: 700px;
     font-size: 40px;
-   }
-    .shop-nav{
+}
+
+.shop-nav {
     top: 700px;
     left: 90vw;
     font-size: 40px;
-    }
-    .music-nav-cont, .shows-nav-left, .about-top-nav, .shop-nav-top-left{
-        display: none;
-    } 
-    .cross-right-music, .cross-right-about, .cross-right-shows, .cross-right-shop{
-    left: 45vw;    
+}
+
+.music-nav-cont,
+.shows-nav-left,
+.about-top-nav,
+.shop-nav-top-left {
+    display: none;
+}
+
+.cross-right-music,
+.cross-right-about {
+    left: 45vw;
     width: 3%;
     height: 10%;
-        z-index: 20;
-        cursor:pointer;
-    }
-}
-.date{
-    color: black;
-}
-@media only screen and (min-width: 1000px) {
-    
-.left-side-bg{
-    animation: slideout-left 1s;
-    position: absolute;
-    width: 50vw;
-    height: 100vh;
-    background-color: black;
-    z-index:4; /* later on, we need to change this parametr to 3 or 4 because underneath it has to be content for website - you need to check how many 'layers' do we need*/
-}   
-.right-side-bg{ 
-    animation: slideout-rigt 1s;
-    position: absolute;
-    left: 50vw;
-    width: 50vw;
-    height: 100vh;
-    background-color: black; 
-    z-index: 4; /* change later */
-}
-    
-@keyframes slideout-left {
-  0%   { opacity: 1; }
-  100% { opacity: 0; }
-}
-.background .logo-bg{
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/eb/new_landing.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    z-index: 20;
     cursor: pointer;
-    margin-top: 0;
-    z-index: 5; /* change later */  
 }
+
+.cross-right-shows,
+.cross-right-shop{
+    right: 45vw;
+    width: 3%;
+    height: 10%;
+    z-index: 20;
+    cursor: pointer;
+}
+<<<<<<< HEAD
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
     z-index:30;
@@ -577,3 +1151,11 @@ background-size: contain;
         display: none;
     }   
 }
+=======
+
+.date {
+    color: black;
+}
+
+}
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
