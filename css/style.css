@@ -719,13 +719,15 @@ button:hover {
         color:white;
         top: 5vh;
         z-index: 20;
+        
     }  
  .nav-desktop-right{
         position: absolute;
         color:white;
         top: 5vh;
         z-index: 30;
-        right: 5vw;    
+        right: 5vw;   
+     
     }
     .nav-desktop li{
         padding-left: 30px;
@@ -759,39 +761,37 @@ button:hover {
     
 /*about  deskop*/  
 .about_me {
-    width: 90vw;
-    background: rgba(0, 0, 0, 0.8);
-    margin-top: -3vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    background: rgba(0, 0, 0, 0.5);
+   
+    
 }
+    
+.about_me .video {
+    margin-top: 2vh;
+    position: fixed;
+    width: 50vw;
+    right:0;
+    float: right;
+ 
+}
+ .wp-video-shortcode{
+     width: 50vw;
+     height: auto;
+     align-self: center;
+    }
+ .about_me #aboutList{ 
+     width: 40vw;
+     
+        
+    }
 .about_me h1 {
     font-size: 1.2em;
 }
 .about_me p {
     font-size: 1em;
 }
-.about_me .video {
-    z-index: 10;
-    height: auto;
-     grid-column-start: 2;
-    grid-column-end: 2;
-  width: 50vw; 
-    
-}
- .wp-video-shortcode{
-    width: 50vw;
-     height: auto;
-    }
-    .about_me #aboutList{
-     grid-column-start: 1;
-        grid-column-end: 2;
-        position: absolute;
-        z-index: 12;
-        margin-top: -50vh;
-    }
+
+
     
     
 /* navigation */
@@ -866,8 +866,7 @@ button:hover {
 .shop-nav-top-left {
     display: none;
 }
-.cross-right-music,
-.cross-right-about {
+.cross-right-music{
     left: 45vw;
     width: 3%;
     height: 10%;
@@ -882,6 +881,16 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
+    
+    .cross-right-about{
+        width: 3%;
+    height: 10%;
+    z-index: 20;
+    cursor: pointer;
+        right: 5vw;
+        top: 7vh;
+        position: fixed;
+    }
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
 z-index:30;
