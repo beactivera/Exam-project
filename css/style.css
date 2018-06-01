@@ -976,6 +976,10 @@ background: rgba(0, 0, 0, 0.5);
     left: 90vw;
     font-size: 40px;
 }
+    
+    .button {
+        width:200px;
+    }
 .music-nav-cont,
 .shows-nav-left,
 .about-top-nav,
