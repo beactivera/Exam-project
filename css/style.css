@@ -515,6 +515,12 @@ button:hover {
         }
     }
     
+    @keyframes slideout-right{
+        100%{
+            transform: translateX(-100vw);
+        }
+    }
+    
     /* grid navigation + logo and social media on top of bg image */
     .navigation_top {
         position: absolute;
