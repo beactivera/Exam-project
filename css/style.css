@@ -6,7 +6,6 @@ body{
     overflow-x: hidden;
   
 }
-
 /* intro */
 .background{
     background-color: black;
@@ -26,26 +25,18 @@ body{
     margin-top: 3vh;
     z-index: 2; /* change later */  
 }
-
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
     z-index:30;
      background-position: center;
-    background-repeat: no-repeat;
-  
-  
-    
+    background-repeat: no-repeat; 
 }
-
-
-
 /* mobile first */
 .home-page{
      position: relative;
         width: 100vw;
         height: auto;
 }
-
 .bg-homepage{
     width: 100vw;
     height: 100vh;
@@ -77,7 +68,6 @@ background-image: url(../images/eb/new_hover.png);
      grid-template-columns: 1fr 1fr;
      top: 85vh;
 }
-
 .navigation_bottom .about-nav{
      padding-left: 5vw;
 }
@@ -94,7 +84,6 @@ background-image: url(../images/eb/new_hover.png);
     top: 15vh;
     padding: 5vw;   
 }
-
 .logo_and_media .logo-hp{
     width:120%;
     height: 120%;
@@ -109,8 +98,6 @@ background-image: url(../images/eb/new_hover.png);
 .so-me-icons {
    padding-top: 10vh;
 }
-
-
 .logo_and_media .so-me-icons .fb{
     display: block;
     width: 35px;
@@ -120,10 +107,8 @@ background-image: url(../images/eb/new_hover.png);
     background-repeat: no-repeat;
     background-size: cover; 
     margin-bottom: 2vh;
-    cursor: pointer;
-  
+    cursor: pointer; 
 }
-
 .logo_and_media .so-me-icons .fb:hover{
   background-image: url(../images/icons/fb_black.png);  
 }
@@ -153,7 +138,6 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-
 .logo_and_media .so-me-icons .insta:hover{
     background-image: url(../images/icons/insta_black.png);
 }
@@ -168,11 +152,9 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-
 .logo_and_media .so-me-icons .sc_icon:hover{
     background-image: url(../images/icons/soundcloud_black.png);
 }
-
 .logo_and_media .so-me-icons .spotify{
     display: block;
     width: 35px;
@@ -184,13 +166,10 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-
 .logo_and_media .so-me-icons .spotify:hover{
     background-image: url(../images/icons/spotify_black.png);
 }
-
 /* NAVIGATION */
-
 .music-nav, .music-nav-cont{
     width: 9%;
     height: 10%;
@@ -200,7 +179,6 @@ background-image: url(../images/eb/new_hover.png);
     font-weight: 100;
     cursor: pointer;
 }
-
 .music-nav:hover{
     color: black;
     transition: 0.1s;
@@ -212,10 +190,8 @@ background-image: url(../images/eb/new_hover.png);
     font-size: 30px;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
-    cursor: pointer;
-  
+    cursor: pointer; 
 }
-
 .shows-nav:hover{
     color: black;
     transition: 0.1s;
@@ -229,7 +205,6 @@ background-image: url(../images/eb/new_hover.png);
     font-weight: 100;
     cursor: pointer;
 }
-
 .about-nav:hover{
     color: black;
     transition: 0.1s;
@@ -244,15 +219,11 @@ background-image: url(../images/eb/new_hover.png);
     font-weight: 100;
     cursor: pointer;
 }
-
 .shop-nav:hover{
     color: black;
     transition: 0.1s;
 }
-
-
 /*MUSIC OPENED MENU */
-
 .music-nav-cont{
     z-index: 3;
     position: absolute;
@@ -268,11 +239,9 @@ background-image: url(../images/eb/new_hover.png);
     cursor: pointer;
     top: -3vh;
 }
-
 .scList{
      opacity: 1; 
 }
-
 .sc{
 margin-top: 14vh;  
 }
@@ -282,9 +251,7 @@ margin-top: 14vh;
     align-content: center;
     margin: auto;
 }
-
 /*SHOWS OPENED MENU */
-
 .shows-nav-left, .about-top-nav{
    position: absolute;
     top: 3vh;
@@ -298,7 +265,6 @@ margin-top: 14vh;
     font-weight: 100;
     cursor: pointer;
 }
-
 #eventList{
     z-index: 10;
     width:100vw;
@@ -312,10 +278,7 @@ margin-top: 14vh;
     align-content: center;
     margin-top: -3vh;
     padding-top: 15vh;
-    
-    
 }
-
  .event{
     background-color: white;
     color:black;
@@ -328,15 +291,11 @@ margin-top: 14vh;
      margin-left: 5vw;
      padding: 3vw;
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     
+     grid-template-columns: 1fr 1fr;  
 }
-
-
 .event .column_1{
     justify-self: center;
 }
-
 .event .column_2{
     place-self: center;
 }
@@ -353,8 +312,7 @@ button {
     width: 120px;
     cursor: pointer;
     border-radius: 20px;
-    font-family: "Futura","Helvetica", "Roboto", sans-serif;
-   
+    font-family: "Futura","Helvetica", "Roboto", sans-serif; 
 }
 
 button:hover{
@@ -365,9 +323,7 @@ button:hover{
 .price{
     width: 200px;
 }
-
 /*SHOP OPENED MENU */
-
 .shop{
      z-index: 10;
     width:100vw;
@@ -377,9 +333,7 @@ button:hover{
     opacity: 1;  
     padding-top: 15vh;
     margin-top: -3vh;
- 
 }
-
 .shop .oneitem{
     opacity: 1;
     align-self: center;
@@ -388,8 +342,6 @@ button:hover{
     width: 80vw;
     padding-bottom: 15vh;
 }
-
-
 .shop-nav-top-left{
      position: absolute;
     top: 3vh;
@@ -403,9 +355,7 @@ button:hover{
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
     font-weight: 100;
 }
-
 .button {
-   
     background-color: white;
     border: none;
     color: black;
@@ -419,9 +369,7 @@ button:hover{
     cursor: pointer;
     border-radius: 20px;
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
-   
 }
-
 .button:hover{
    background-color: black;
     color: white;
@@ -439,14 +387,11 @@ button:hover{
     margin-top: -3vh;
     padding-top:15vh;
 }
-
 .video{
     z-index: 10;
     width:100vw;
     height: auto;  
 }
-
-
 /* CROSS */
 .cross-right-music, .cross-right-shows, .cross-right-about, .cross-right-shop{
     position: absolute;
@@ -465,18 +410,13 @@ button:hover{
 }
 /* desktop  */ 
 @media only screen and (min-width: 700px) {
- 
- 
-
 .soundcloud{
     width:50vw;
     height: auto;
     padding-bottom: 3vh;
      position: sticky;
-    height:200vh;
-   
-}
-    
+    height:200vh; 
+}  
  #eventList{
     z-index: 10;
     width:50vw;
@@ -485,15 +425,12 @@ button:hover{
     background-color: black;
     opacity:0.8;  
     color: white;
-    right:0;
-   
+    right:0; 
 }
 .shop{
         width: 50vw;
           right: 0;
     }
-
-    
     .shopItems .picture{
         width: 20vw;
         height:20vh;
@@ -506,31 +443,22 @@ button:hover{
     height: auto;
     color: black;
     }
-    
 .oneitem{
     display: grid;
     grid-template-columns: 1fr;
     width: 20vw;
-    height: auto;
-   
-    } 
-    
+    height: auto; 
+    }   
 #scList{
   display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10vh;
-
-    
+    margin-top: 10vh;  
 }
 .soundcloud .link{
     width: 20vw;
     height: 20vw;
     overflow-y: hidden;
-   
- 
- 
-}
-   
+} 
     .bg-left{
     width: 50vw;
     z-index: 2;
@@ -545,16 +473,13 @@ button:hover{
         color:white;
         top: 5vh;
         z-index: 20;
-    }
-    
+    }  
  .nav-desktop-right{
         position: absolute;
         color:white;
         top: 5vh;
         z-index: 30;
-        right: 5vw;
-        
-        
+        right: 5vw;    
     }
     .nav-desktop li{
         padding-left: 30px;
@@ -563,7 +488,6 @@ button:hover{
         color:white;
         font-size: 30px;
     }
-    
       .nav-desktop-right li{
         padding-left: 30px;
         display: inline-block;
@@ -638,24 +562,18 @@ button:hover{
     margin-top: 0;
     z-index: 5; /* change later */  
 }
-
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
     z-index:30;
      background-position: center;
     background-repeat: no-repeat;
-   
 background-size: contain;
 }
-
 .bg-homepage{
         background-image: url(../images/eb/homepage.jpg);
          position: fixed;
     }
-    
     .logo-hp{
         display: none;
-    }  
-     
-    
+    }   
 }
