@@ -767,17 +767,18 @@ button:hover {
 }
     
 .about_me .video {
-    margin-top: 2vh;
+    margin-top: 20vh;
     position: fixed;
     width: 50vw;
     right:0;
     float: right;
+    
  
 }
  .wp-video-shortcode{
      width: 50vw;
      height: auto;
-     align-self: center;
+  
     }
  .about_me #aboutList{ 
      width: 40vw;
