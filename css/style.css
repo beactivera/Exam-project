@@ -19,7 +19,6 @@ body {
     background-repeat: no-repeat;
 
 }
-
 /* intro */
 
 .background {
@@ -42,16 +41,21 @@ body {
     z-index: 2;
     /* change later */
 }
+<<<<<<< HEAD
+.logo-bg:hover{
+background-image: url(../images/eb/new_hover.png);
+    z-index:30;
+     background-position: center;
+    background-repeat: no-repeat; 
+=======
 
 .logo-bg:hover {
     background-image: url(../images/eb/new_hover.png);
     z-index: 30;
     background-position: center;
     background-repeat: no-repeat;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
-
-
-
 /* mobile first */
 
 .home-page {
@@ -59,8 +63,12 @@ body {
     width: 100vw;
     height: auto;
 }
+<<<<<<< HEAD
+.bg-homepage{
+=======
 
 .bg-homepage {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 100vw;
     height: 100vh;
     background-image: url(../images/noah_proffakuva.jpg);
@@ -96,9 +104,14 @@ body {
     grid-template-columns: 1fr 1fr;
     top: 85vh;
 }
+<<<<<<< HEAD
+.navigation_bottom .about-nav{
+     padding-left: 5vw;
+=======
 
 .navigation_bottom .about-nav {
     padding-left: 5vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 
 .navigation_bottom .shop-nav {
@@ -115,9 +128,14 @@ body {
     top: 15vh;
     padding: 5vw;
 }
+<<<<<<< HEAD
+.logo_and_media .logo-hp{
+    width:120%;
+=======
 
 .logo_and_media .logo-hp {
     width: 120%;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: 120%;
     background-image: url(../images/final_logo_outlines.png);
     background-position: center;
@@ -133,9 +151,13 @@ body {
     padding-top: 10vh;
 
 }
+<<<<<<< HEAD
+.logo_and_media .so-me-icons .fb{
+=======
 
 
 .logo_and_media .so-me-icons .fb {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
@@ -144,12 +166,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2vh;
+<<<<<<< HEAD
+    cursor: pointer; 
+}
+.logo_and_media .so-me-icons .fb:hover{
+  background-image: url(../images/icons/fb_black.png);  
+=======
     cursor: pointer;
 
 }
 
 .logo_and_media .so-me-icons .fb:hover {
     background-image: url(../images/icons/fb_black.png);
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 
 .logo_and_media .so-me-icons .e-mail {
@@ -179,8 +208,12 @@ body {
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.logo_and_media .so-me-icons .insta:hover{
+=======
 
 .logo_and_media .so-me-icons .insta:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-image: url(../images/icons/insta_black.png);
 }
 
@@ -195,12 +228,19 @@ body {
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.logo_and_media .so-me-icons .sc_icon:hover{
+    background-image: url(../images/icons/soundcloud_black.png);
+}
+.logo_and_media .so-me-icons .spotify{
+=======
 
 .logo_and_media .so-me-icons .sc_icon:hover {
     background-image: url(../images/icons/soundcloud_black.png);
 }
 
 .logo_and_media .so-me-icons .spotify {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
@@ -211,15 +251,22 @@ body {
     margin-bottom: 2vh;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.logo_and_media .so-me-icons .spotify:hover{
+=======
 
 .logo_and_media .so-me-icons .spotify:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-image: url(../images/icons/spotify_black.png);
 }
-
 /* NAVIGATION */
+<<<<<<< HEAD
+.music-nav, .music-nav-cont{
+=======
 
 .music-nav,
 .music-nav-cont {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 9%;
     height: 10%;
     color: white;
@@ -228,8 +275,12 @@ body {
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.music-nav:hover{
+=======
 
 .music-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
@@ -241,11 +292,17 @@ body {
     font-size: 30px;
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
+<<<<<<< HEAD
+    cursor: pointer; 
+}
+.shows-nav:hover{
+=======
     cursor: pointer;
 
 }
 
 .shows-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
@@ -259,8 +316,12 @@ body {
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.about-nav:hover{
+=======
 
 .about-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
@@ -275,16 +336,22 @@ body {
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.shop-nav:hover{
+=======
 
 .shop-nav:hover {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-
-
 /*MUSIC OPENED MENU */
+<<<<<<< HEAD
+.music-nav-cont{
+=======
 
 .music-nav-cont {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 3;
     position: absolute;
     margin-left: 10vw;
@@ -300,6 +367,13 @@ body {
     cursor: pointer;
     top: -3vh;
 }
+<<<<<<< HEAD
+.scList{
+     opacity: 1; 
+}
+.sc{
+margin-top: 14vh;  
+=======
 
 .scList {
     opacity: 1;
@@ -307,6 +381,7 @@ body {
 
 .sc {
     margin-top: 14vh;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 
 .soundcloud .link {
@@ -315,12 +390,16 @@ body {
     align-content: center;
     margin: auto;
 }
-
 /*SHOWS OPENED MENU */
+<<<<<<< HEAD
+.shows-nav-left, .about-top-nav{
+   position: absolute;
+=======
 
 .shows-nav-left,
 .about-top-nav {
     position: absolute;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 5vw;
     width: 9%;
@@ -332,8 +411,12 @@ body {
     font-weight: 100;
     cursor: pointer;
 }
+<<<<<<< HEAD
+#eventList{
+=======
 
 #eventList {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
     width: 100vw;
     height: auto;
@@ -346,11 +429,16 @@ body {
     align-content: center;
     margin-top: -3vh;
     padding-top: 15vh;
+<<<<<<< HEAD
+}
+ .event{
+=======
 
 
 }
 
 .event {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
     color: black;
     border-radius: 40px;
@@ -359,6 +447,17 @@ body {
     width: 80vw;
     height: auto;
     margin-bottom: 5vh;
+<<<<<<< HEAD
+     margin-left: 5vw;
+     padding: 3vw;
+     display: grid;
+     grid-template-columns: 1fr 1fr;  
+}
+.event .column_1{
+    justify-self: center;
+}
+.event .column_2{
+=======
     margin-left: 5vw;
     padding: 3vw;
     display: grid;
@@ -372,6 +471,7 @@ body {
 }
 
 .event .column_2 {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     place-self: center;
 }
 
@@ -388,8 +488,12 @@ button {
     width: 120px;
     cursor: pointer;
     border-radius: 20px;
+<<<<<<< HEAD
+    font-family: "Futura","Helvetica", "Roboto", sans-serif; 
+=======
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
 
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
 
 button:hover {
@@ -401,22 +505,32 @@ button:hover {
 .price {
     width: 200px;
 }
-
 /*SHOP OPENED MENU */
+<<<<<<< HEAD
+.shop{
+     z-index: 10;
+    width:100vw;
+=======
 
 .shop {
     z-index: 10;
     width: 100vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: auto;
     position: absolute;
     background-color: black;
     opacity: 1;
     padding-top: 15vh;
     margin-top: -3vh;
+<<<<<<< HEAD
+}
+.shop .oneitem{
+=======
 
 }
 
 .shop .oneitem {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     opacity: 1;
     align-self: center;
     justify-content: center;
@@ -424,10 +538,15 @@ button:hover {
     width: 80vw;
     padding-bottom: 15vh;
 }
+<<<<<<< HEAD
+.shop-nav-top-left{
+     position: absolute;
+=======
 
 
 .shop-nav-top-left {
     position: absolute;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 3vw;
     width: 9%;
@@ -439,9 +558,11 @@ button:hover {
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
 }
-
 .button {
+<<<<<<< HEAD
+=======
 
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
     border: none;
     color: black;
@@ -454,12 +575,19 @@ button:hover {
     width: 150px;
     cursor: pointer;
     border-radius: 20px;
+<<<<<<< HEAD
+    font-family: "Futura","Helvetica", "Roboto", sans-serif;
+}
+.button:hover{
+   background-color: black;
+=======
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
 
 }
 
 .button:hover {
     background-color: black;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: white;
     border: 1px solid white;
 }
@@ -481,6 +609,9 @@ button:hover {
     padding-left: 5vw;
     padding-right: 5vw;
 }
+<<<<<<< HEAD
+.video{
+=======
 
 .about_me h1 {
     font-size: 1.2em;
@@ -491,12 +622,11 @@ button:hover {
 }
 
 .video {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
     width: 100vw;
     height: auto;
 }
-
-
 /* CROSS */
 
 .cross-right-music,
@@ -518,6 +648,28 @@ button:hover {
 .hide {
     display: none;
 }
+<<<<<<< HEAD
+/* desktop  */ 
+@media only screen and (min-width: 700px) {
+.soundcloud{
+    width:50vw;
+    height: auto;
+    padding-bottom: 3vh;
+     position: sticky;
+    height:200vh; 
+}  
+ #eventList{
+    z-index: 10;
+    width:50vw;
+    height: auto;
+     position: absolute;
+    background-color: black;
+    opacity:0.8;  
+    color: white;
+    right:0; 
+}
+.shop{
+=======
 
 /* desktop  */
 
@@ -538,12 +690,16 @@ button:hover {
         animation: slideout-rigt 1s;
         position: absolute;
         left: 50vw;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
         width: 50vw;
         height: 100vh;
         background-color: black;
         z-index: 4;
         /* change later */
     }
+<<<<<<< HEAD
+    .shopItems .picture{
+=======
 
     @keyframes slideout-left {
       
@@ -670,6 +826,7 @@ button:hover {
     }
 
     .soundcloud .link {
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
         width: 20vw;
         height: 20vw;
         overflow-y: hidden;
@@ -750,6 +907,63 @@ button:hover {
     margin-top: 5vh;
     height: auto;
     color: black;
+<<<<<<< HEAD
+    }
+.oneitem{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20vw;
+    height: auto; 
+    }   
+#scList{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;  
+}
+.soundcloud .link{
+    width: 20vw;
+    height: 20vw;
+    overflow-y: hidden;
+} 
+    .bg-left{
+    width: 50vw;
+    z-index: 2;
+    }
+    .bg-right{
+        left: 50vw;
+        width: 50vw;
+        z-index: 2;
+    }
+    .nav-desktop{
+        position: absolute;
+        color:white;
+        top: 5vh;
+        z-index: 20;
+    }  
+ .nav-desktop-right{
+        position: absolute;
+        color:white;
+        top: 5vh;
+        z-index: 30;
+        right: 5vw;    
+    }
+    .nav-desktop li{
+        padding-left: 30px;
+        display: inline-block;
+        list-style-type: none;
+        color:white;
+        font-size: 30px;
+    }
+      .nav-desktop-right li{
+        padding-left: 30px;
+        display: inline-block;
+        list-style-type: none;
+        color:white;
+        font-size: 30px;
+    }
+    .music-nav{
+        font-size: 40px;
+=======
 }
 
 #shopList .oneitem {
@@ -810,6 +1024,7 @@ button:hover {
         position: absolute;
         z-index: 12;
         margin-top: -50vh;
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     }
 /* navigation */
 
@@ -918,9 +1133,27 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
+<<<<<<< HEAD
+.logo-bg:hover{
+background-image: url(../images/eb/new_hover.png);
+    z-index:30;
+     background-position: center;
+    background-repeat: no-repeat;
+background-size: contain;
+}
+.bg-homepage{
+        background-image: url(../images/eb/homepage.jpg);
+         position: fixed;
+    }
+    .logo-hp{
+        display: none;
+    }   
+}
+=======
 
 .date {
     color: black;
 }
 
 }
+>>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
