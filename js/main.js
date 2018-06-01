@@ -1,19 +1,26 @@
 // declared global variables
 let bgLogo = document.querySelector('.logo-bg');
+let logo = document.querySelector('.logo');
+let leftSide = document.querySelector('.left-side-bg');
+let rightSide = document.querySelector('.right-side-bg');
 let hplogo = document.querySelector('.logo-hp');
 let intro = document.querySelector('.intro');
 let home = document.querySelector('.home-page')
 let musicNav = document.querySelector('.music-nav');
 let music = document.querySelector('.music-content');
+let musicDesk = document.querySelector('.music-desk');
 let rightCloseMusic = document.querySelector('.cross-right-music');
 let aboutNav = document.querySelector('.about-nav');
 let about = document.querySelector('.about-content');
+let aboutDesk = document.querySelector('.about-desk');
 let rightCloseAbout = document.querySelector('.cross-right-about');
 let showsNav = document.querySelector('.shows-nav');
 let shows = document.querySelector('.shows-content');
+let showsDesk = document.querySelector('.shows-desk')
 let rightCloseShows = document.querySelector('.cross-right-shows');
 let shopNav = document.querySelector('.shop-nav');
 let shop = document.querySelector('.shop-content');
+let shopDesk = document.querySelector('.shop-desk');
 let rightCloseShop = document.querySelector('.cross-right-shop');
 
 
@@ -24,6 +31,14 @@ about.classList.add('hide');
 shows.classList.add('hide');
 shop.classList.add('hide');
 
+
+//// animation on intro page - it doesn't work because of the 'layers'
+//logo.addEventListener('click', makeAnimations)
+//
+//function makeAnimations(){    
+//    leftSide.classList.add('left-side-bgCSS');
+//    rightSide.classList.add('right-side-bgCSS');
+//}
 
 // function which will move you from intro page to home page
 bgLogo.addEventListener('click', openHomePage);
@@ -41,6 +56,7 @@ function openHomePage(){
 // MUSIC SECTION
 //musicNav.addEventListener('mouseover', gotoMusic);
 musicNav.addEventListener('click', gotoMusic);
+musicDesk.addEventListener('click', gotoMusic);
 
 function gotoMusic(){
     intro.classList.add('hide');
@@ -75,6 +91,7 @@ function backToHomePageR(){
 // SHOWS SECTION
 //showsNav.addEventListener('mouseover', gotoShows);
 showsNav.addEventListener('click', gotoShows);
+showsDesk.addEventListener('click', gotoShows);
 
 function gotoShows(){
     intro.classList.add('hide');
@@ -83,7 +100,7 @@ function gotoShows(){
     shows.classList.remove('hide');
     about.classList.add('hide');
     shop.classList.add('hide');
-     showsNav.style.display = "none";
+    showsNav.style.display = "none";
     shopNav.style.display = "none";
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
@@ -109,8 +126,9 @@ function backToHomePageL(){
 /////////////////////////////////////////////////////
 // ABOUT SECTION
 //aboutNav.addEventListener('mouseover', gotoAbout);
-aboutNav.addEventListener('click', gotoAbout);
 
+aboutNav.addEventListener('click', gotoAbout);
+aboutDesk.addEventListener('click', gotoAbout);
 
 function gotoAbout(){
    intro.classList.add('hide');
@@ -132,6 +150,7 @@ rightCloseAbout.addEventListener('click', backToHomePageR)
 // SHOP SECTION
 //shopNav.addEventListener('mouseover', gotoShop);
 shopNav.addEventListener('click', gotoShop);
+shopDesk.addEventListener('click', gotoShop);
 
 function gotoShop(){
    intro.classList.add('hide');

@@ -19,8 +19,6 @@ let catid = urlParams.get("category");
     fetch(endpoint)
       .then(e => e.json())
       .then(showConcert);
-
-
 }
 
 function showConcert(data){

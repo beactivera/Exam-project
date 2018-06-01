@@ -491,15 +491,16 @@ button:hover {
     
     /*intro deskop*/
     .left-side-bg {
-        animation: slideout-left 1s;
         position: absolute;
         width: 50vw;
         height: 100vh;
         background-color: black;
         z-index: 4;
     }
+    .left-side-bgCSS{
+        animation: slideout-left 2s linear;
+    }
     .right-side-bg {
-        animation: slideout-rigt 1s;
         position: absolute;
         left: 50vw;
         width: 50vw;
@@ -507,16 +508,19 @@ button:hover {
         background-color: black;
         z-index: 4;
     }
+    .right-side-bgCSS{
+        animation: slideout-rigt 2s linear;
+    }
 
     @keyframes slideout-left {
       
-        100% {
+        50% {
            transform: translateX(-100vw);
         }
     }
     
     @keyframes slideout-right{
-        100%{
+        50%{
             transform: translateX(-100vw);
         }
     }
@@ -877,6 +881,7 @@ button:hover {
 }
 .cross-right-shows,
 .cross-right-shop{
+    top: 3vh;
     right: 45vw;
     width: 3%;
     height: 10%;
