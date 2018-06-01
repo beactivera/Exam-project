@@ -546,11 +546,9 @@ button:hover {
     }
 
     @keyframes slideout-left {
-        0% {
-            opacity: 1;
-        }
+      
         100% {
-            opacity: 0;
+           transform: translateX(-100vw);
         }
     }
     /* grid navigation + logo and social media on top of bg image */
