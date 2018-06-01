@@ -72,7 +72,7 @@ body {
 .navigation_top {
     position: absolute;
     display: grid;
-    width: 95vw;
+    width: 90vw;
     height: 10vh;
     grid-template-columns: 1fr 1fr;
     padding-top: 5vw;
@@ -85,6 +85,7 @@ body {
 
 .navigation_top .shows-nav {
     justify-self: center;
+    padding-right: 5vw;
 }
 
 .navigation_bottom {
@@ -130,6 +131,7 @@ body {
 
 .so-me-icons {
     padding-top: 10vh;
+
 }
 
 
@@ -522,7 +524,7 @@ button:hover {
 @media only screen and (min-width: 700px) {}
 
 @media only screen and (min-width: 1000px) {
-    /*intro*/
+    /*intro deskop*/
     .left-side-bg {
         animation: slideout-left 1s;
         position: absolute;
@@ -601,12 +603,13 @@ button:hover {
         align-self: flex-end;
         width: 40vw;
         margin-left: 35vw;
-        margin-bottom: -10vh;
+        bottom: 5vh;
         cursor: pointer;
         z-index: 4;
+        position: fixed;
 
     }
-    /* social media icons */
+    /* social media icons deskop*/
     .so-me-icons a {
         display: inline-block;
         padding: 0.5vw;
@@ -648,7 +651,7 @@ button:hover {
     }
 
 
-    /* music*/
+    /* music deskop*/
     #scList {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -676,20 +679,19 @@ button:hover {
     }
 
 
-}
 
-/*events*/
+
+/*events deskop*/
 
 #eventList {
     z-index: 10;
-    width: 57vw;
+    width: 50vw;
     height: auto;
     position: absolute;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     right: 0;
-  
- 
+
 }
 
 .event {
@@ -701,41 +703,71 @@ button:hover {
     width: 30vw;
     height: auto;
     margin-bottom: 5vh;
-    margin-left: 12.5vw;
     padding: 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-content: center;
+
 
 }
 
 
-/*shop*/
+.scroll {
+    position: fixed;
+    width: 50vw;
+    height: 10vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 20;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 30;
+    animation-delay:
+}
+
+.scroll .arrow {
+    background-image: url(../images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 8vw;
+    height: 8vh;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*shop deskop*/
 
 .shop {
     width: 50vw;
     right: 0;
+    background: rgba(0, 0, 0, 0.5);
+
 }
 
 
-.shopItems .picture {
-    width: 20vw;
-    height: 20vh;
-    opacity: 1;
-}
-
-#shopList {
+.shop #shopList {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10vh;
+    margin-top: 5vh;
     height: auto;
     color: black;
 }
 
-.oneitem {
+#shopList .oneitem {
     display: grid;
     grid-template-columns: 1fr;
     width: 20vw;
-    height: auto;
+    height: 25vw;
+    overflow-y: hidden;
+
+}
+
+.button {
+
+  
+    margin-left: 0;
+    margin: auto;
 
 }
 
@@ -774,9 +806,10 @@ button:hover {
     cursor: pointer;
 }
 
-.nav-desktop li:hover{
-    color:white;
+.nav-desktop li:hover {
+    color: white;
 }
+
 .nav-desktop li u {
     color: white;
     text-decoration: none;
@@ -793,9 +826,10 @@ button:hover {
 
 }
 
-.nav-desktop-right li:hover{
-    color:white;
+.nav-desktop-right li:hover {
+    color: white;
 }
+
 .nav-desktop-right li b {
     color: white;
     text-decoration: none;
@@ -829,10 +863,17 @@ button:hover {
 }
 
 .cross-right-music,
-.cross-right-about,
-.cross-right-shows,
-.cross-right-shop {
+.cross-right-about {
     left: 45vw;
+    width: 3%;
+    height: 10%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.cross-right-shows,
+.cross-right-shop{
+    right: 45vw;
     width: 3%;
     height: 10%;
     z-index: 20;
