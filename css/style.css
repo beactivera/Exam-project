@@ -4,30 +4,27 @@ body {
     top: 0;
     left: 0;
     overflow-x: hidden;
-
 }
 
+
 /*spotify*/
-
 .spotify_page {
-
     background-size: cover;
     width: 100vw;
     height: 100vh;
     background-image: url(../images/spotify_fake.jpg);
     background-position: center;
     background-repeat: no-repeat;
-
 }
-/* intro */
 
+
+/* intro */
 .background {
     background-color: black;
     z-index: 3;
     width: 100vw;
     height: 100vh;
 }
-
 .background .logo-bg {
     position: absolute;
     display: block;
@@ -39,36 +36,22 @@ body {
     cursor: pointer;
     margin-top: 3vh;
     z-index: 2;
-    /* change later */
 }
-<<<<<<< HEAD
 .logo-bg:hover{
-background-image: url(../images/eb/new_hover.png);
+    background-image: url(../images/eb/new_hover.png);
     z-index:30;
      background-position: center;
     background-repeat: no-repeat; 
-=======
-
-.logo-bg:hover {
-    background-image: url(../images/eb/new_hover.png);
-    z-index: 30;
-    background-position: center;
-    background-repeat: no-repeat;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
-/* mobile first */
 
+
+/* mobile first */
 .home-page {
     position: relative;
     width: 100vw;
     height: auto;
 }
-<<<<<<< HEAD
-.bg-homepage{
-=======
-
 .bg-homepage {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 100vw;
     height: 100vh;
     background-image: url(../images/noah_proffakuva.jpg);
@@ -76,7 +59,6 @@ background-image: url(../images/eb/new_hover.png);
     background-repeat: no-repeat;
     position: fixed;
 }
-
 .navigation_top {
     position: absolute;
     display: grid;
@@ -84,18 +66,14 @@ background-image: url(../images/eb/new_hover.png);
     height: 10vh;
     grid-template-columns: 1fr 1fr;
     padding-top: 5vw;
-
 }
-
 .navigation_top .music-nav {
     padding-left: 5vw;
 }
-
 .navigation_top .shows-nav {
     justify-self: center;
     padding-right: 5vw;
 }
-
 .navigation_bottom {
     position: absolute;
     display: grid;
@@ -104,20 +82,12 @@ background-image: url(../images/eb/new_hover.png);
     grid-template-columns: 1fr 1fr;
     top: 85vh;
 }
-<<<<<<< HEAD
-.navigation_bottom .about-nav{
-     padding-left: 5vw;
-=======
-
 .navigation_bottom .about-nav {
     padding-left: 5vw;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
-}
-
+    }
 .navigation_bottom .shop-nav {
     justify-self: center;
 }
-
 .logo_and_media {
     position: absolute;
     display: grid;
@@ -127,15 +97,9 @@ background-image: url(../images/eb/new_hover.png);
     margin: auto;
     top: 15vh;
     padding: 5vw;
-}
-<<<<<<< HEAD
-.logo_and_media .logo-hp{
-    width:120%;
-=======
-
+    }
 .logo_and_media .logo-hp {
     width: 120%;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: 120%;
     background-image: url(../images/final_logo_outlines.png);
     background-position: center;
@@ -145,19 +109,12 @@ background-image: url(../images/eb/new_hover.png);
     justify-self: center;
 }
 
-/* social media icons */
 
+/* social media icons */
 .so-me-icons {
     padding-top: 10vh;
-
 }
-<<<<<<< HEAD
-.logo_and_media .so-me-icons .fb{
-=======
-
-
 .logo_and_media .so-me-icons .fb {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
@@ -166,21 +123,12 @@ background-image: url(../images/eb/new_hover.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 2vh;
-<<<<<<< HEAD
     cursor: pointer; 
 }
 .logo_and_media .so-me-icons .fb:hover{
   background-image: url(../images/icons/fb_black.png);  
-=======
     cursor: pointer;
-
 }
-
-.logo_and_media .so-me-icons .fb:hover {
-    background-image: url(../images/icons/fb_black.png);
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
-}
-
 .logo_and_media .so-me-icons .e-mail {
     display: block;
     width: 35px;
@@ -192,11 +140,9 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-
 .logo_and_media .so-me-icons .e-mail:hover {
     background-image: url(../images/icons/email_black.png);
 }
-
 .logo_and_media .so-me-icons .insta {
     display: block;
     width: 35px;
@@ -208,15 +154,9 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.logo_and_media .so-me-icons .insta:hover{
-=======
-
 .logo_and_media .so-me-icons .insta:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
-    background-image: url(../images/icons/insta_black.png);
+background-image: url(../images/icons/insta_black.png);
 }
-
 .logo_and_media .so-me-icons .sc_icon {
     display: block;
     width: 35px;
@@ -228,19 +168,10 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-<<<<<<< HEAD
 .logo_and_media .so-me-icons .sc_icon:hover{
     background-image: url(../images/icons/soundcloud_black.png);
 }
-.logo_and_media .so-me-icons .spotify{
-=======
-
-.logo_and_media .so-me-icons .sc_icon:hover {
-    background-image: url(../images/icons/soundcloud_black.png);
-}
-
 .logo_and_media .so-me-icons .spotify {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     display: block;
     width: 35px;
     height: 35px;
@@ -251,22 +182,14 @@ background-image: url(../images/eb/new_hover.png);
     margin-bottom: 2vh;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.logo_and_media .so-me-icons .spotify:hover{
-=======
-
 .logo_and_media .so-me-icons .spotify:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-image: url(../images/icons/spotify_black.png);
 }
-/* NAVIGATION */
-<<<<<<< HEAD
-.music-nav, .music-nav-cont{
-=======
 
+
+/* NAVIGATION */
 .music-nav,
 .music-nav-cont {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     width: 9%;
     height: 10%;
     color: white;
@@ -274,17 +197,11 @@ background-image: url(../images/eb/new_hover.png);
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     cursor: pointer;
-}
-<<<<<<< HEAD
-.music-nav:hover{
-=======
-
+} 
 .music-nav:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-
 .shows-nav {
     width: 9%;
     height: 10%;
@@ -292,21 +209,13 @@ background-image: url(../images/eb/new_hover.png);
     font-size: 30px;
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
-<<<<<<< HEAD
     cursor: pointer; 
 }
-.shows-nav:hover{
-=======
-    cursor: pointer;
-
-}
-
 .shows-nav:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
+    cursor: pointer;
     color: black;
     transition: 0.1s;
 }
-
 .about-nav {
     width: 9%;
     height: 10%;
@@ -316,16 +225,10 @@ background-image: url(../images/eb/new_hover.png);
     font-weight: 100;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.about-nav:hover{
-=======
-
 .about-nav:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-
 .shop-nav {
     width: 9%;
     height: 10%;
@@ -336,27 +239,18 @@ background-image: url(../images/eb/new_hover.png);
     font-weight: 100;
     cursor: pointer;
 }
-<<<<<<< HEAD
-.shop-nav:hover{
-=======
-
 .shop-nav:hover {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: black;
     transition: 0.1s;
 }
-/*MUSIC OPENED MENU */
-<<<<<<< HEAD
-.music-nav-cont{
-=======
 
+
+/*MUSIC OPENED MENU */
 .music-nav-cont {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 3;
     position: absolute;
     margin-left: 10vw;
 }
-
 .soundcloud {
     z-index: 2;
     width: 100vw;
@@ -367,39 +261,24 @@ background-image: url(../images/eb/new_hover.png);
     cursor: pointer;
     top: -3vh;
 }
-<<<<<<< HEAD
 .scList{
      opacity: 1; 
 }
 .sc{
 margin-top: 14vh;  
-=======
-
-.scList {
-    opacity: 1;
-}
-
-.sc {
-    margin-top: 14vh;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
-}
-
+    }
 .soundcloud .link {
     width: 80vw;
     height: auto;
     align-content: center;
     margin: auto;
 }
-/*SHOWS OPENED MENU */
-<<<<<<< HEAD
-.shows-nav-left, .about-top-nav{
-   position: absolute;
-=======
 
+
+/*SHOWS OPENED MENU */
 .shows-nav-left,
 .about-top-nav {
     position: absolute;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 5vw;
     width: 9%;
@@ -411,12 +290,7 @@ margin-top: 14vh;
     font-weight: 100;
     cursor: pointer;
 }
-<<<<<<< HEAD
-#eventList{
-=======
-
 #eventList {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
     width: 100vw;
     height: auto;
@@ -429,16 +303,8 @@ margin-top: 14vh;
     align-content: center;
     margin-top: -3vh;
     padding-top: 15vh;
-<<<<<<< HEAD
 }
- .event{
-=======
-
-
-}
-
 .event {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
     color: black;
     border-radius: 40px;
@@ -447,7 +313,6 @@ margin-top: 14vh;
     width: 80vw;
     height: auto;
     margin-bottom: 5vh;
-<<<<<<< HEAD
      margin-left: 5vw;
      padding: 3vw;
      display: grid;
@@ -457,24 +322,11 @@ margin-top: 14vh;
     justify-self: center;
 }
 .event .column_2{
-=======
     margin-left: 5vw;
     padding: 3vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
-
-
-.event .column_1 {
-    justify-self: center;
-}
-
-.event .column_2 {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
-    place-self: center;
-}
-
 button {
     background-color: black;
     border: none;
@@ -488,49 +340,30 @@ button {
     width: 120px;
     cursor: pointer;
     border-radius: 20px;
-<<<<<<< HEAD
-    font-family: "Futura","Helvetica", "Roboto", sans-serif; 
-=======
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
-
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
 }
-
 button:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
 }
-
 .price {
     width: 200px;
 }
-/*SHOP OPENED MENU */
-<<<<<<< HEAD
-.shop{
-     z-index: 10;
-    width:100vw;
-=======
 
-.shop {
+
+/*SHOP OPENED MENU */
+.shop{
     z-index: 10;
     width: 100vw;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     height: auto;
     position: absolute;
     background-color: black;
     opacity: 1;
     padding-top: 15vh;
     margin-top: -3vh;
-<<<<<<< HEAD
 }
-.shop .oneitem{
-=======
-
-}
-
 .shop .oneitem {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     opacity: 1;
     align-self: center;
     justify-content: center;
@@ -538,15 +371,8 @@ button:hover {
     width: 80vw;
     padding-bottom: 15vh;
 }
-<<<<<<< HEAD
-.shop-nav-top-left{
-     position: absolute;
-=======
-
-
 .shop-nav-top-left {
     position: absolute;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     top: 3vh;
     left: 3vw;
     width: 9%;
@@ -559,10 +385,6 @@ button:hover {
     font-weight: 100;
 }
 .button {
-<<<<<<< HEAD
-=======
-
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     background-color: white;
     border: none;
     color: black;
@@ -575,25 +397,21 @@ button:hover {
     width: 150px;
     cursor: pointer;
     border-radius: 20px;
-<<<<<<< HEAD
     font-family: "Futura","Helvetica", "Roboto", sans-serif;
 }
 .button:hover{
    background-color: black;
-=======
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
-
 }
 
 .button:hover {
     background-color: black;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     color: white;
     border: 1px solid white;
 }
 
-/*ABOUT OPENED MENU */
 
+/*ABOUT OPENED MENU */
 .about_me {
     z-index: 10;
     width: 90vw;
@@ -609,26 +427,20 @@ button:hover {
     padding-left: 5vw;
     padding-right: 5vw;
 }
-<<<<<<< HEAD
-.video{
-=======
-
 .about_me h1 {
     font-size: 1.2em;
 }
-
 .about_me p {
     font-size: 1em;
 }
-
 .video {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     z-index: 10;
     width: 100vw;
     height: auto;
 }
-/* CROSS */
 
+
+/* CROSS */
 .cross-right-music,
 .cross-right-shows,
 .cross-right-about,
@@ -644,11 +456,12 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
-
 .hide {
     display: none;
 }
-<<<<<<< HEAD
+
+
+
 /* desktop  */ 
 @media only screen and (min-width: 700px) {
 .soundcloud{
@@ -668,14 +481,14 @@ button:hover {
     color: white;
     right:0; 
 }
-.shop{
-=======
 
 /* desktop  */
 
 @media only screen and (min-width: 700px) {}
 
 @media only screen and (min-width: 1000px) {
+    
+    
     /*intro deskop*/
     .left-side-bg {
         animation: slideout-left 1s;
@@ -684,22 +497,16 @@ button:hover {
         height: 100vh;
         background-color: black;
         z-index: 4;
-        /* later on, we need to change this parametr to 3 or 4 because underneath it has to be content for website - you need to check how many 'layers' do we need*/
     }
     .right-side-bg {
         animation: slideout-rigt 1s;
         position: absolute;
         left: 50vw;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
         width: 50vw;
         height: 100vh;
         background-color: black;
         z-index: 4;
-        /* change later */
     }
-<<<<<<< HEAD
-    .shopItems .picture{
-=======
 
     @keyframes slideout-left {
       
@@ -707,6 +514,7 @@ button:hover {
            transform: translateX(-100vw);
         }
     }
+    
     /* grid navigation + logo and social media on top of bg image */
     .navigation_top {
         position: absolute;
@@ -714,13 +522,11 @@ button:hover {
         width: 90vw;
         height: 10vh;
         grid-template-columns: 1fr 1fr;
-
     }
     .navigation_top .shows-nav {
         justify-self: end;
         padding-right: 5vw;
     }
-
     .navigation_top .music-nav {
         justify-self: start;
         padding-left: 5vw;
@@ -733,7 +539,6 @@ button:hover {
         grid-template-columns: 1fr 1fr;
         top: 85vh;
     }
-
     .navigation_bottom .about-nav {
         padding-left: 5vw;
         justify-self: start;
@@ -742,17 +547,14 @@ button:hover {
         justify-self: end;
         padding-right: 5vw;
     }
-
     .logo_and_media {
         display: flex;
         flex-direction: row;
         width: 100vw;
     }
-
     .logo_and_media .logo-hp {
         width: 100vw;
     }
-
     .so-me-icons {
         align-self: flex-end;
         width: 40vw;
@@ -761,16 +563,14 @@ button:hover {
         cursor: pointer;
         z-index: 4;
         position: fixed;
-
     }
+    
+
     /* social media icons deskop*/
     .so-me-icons a {
         display: inline-block;
         padding: 0.5vw;
-
     }
-
-
     .background .logo-bg {
         position: absolute;
         display: block;
@@ -783,23 +583,18 @@ button:hover {
         cursor: pointer;
         margin-top: 0;
         z-index: 5;
-        /* change later */
     }
-
     .logo-bg:hover {
         background-image: url(../images/eb/new_hover.png);
         z-index: 30;
         background-position: center;
         background-repeat: no-repeat;
-
         background-size: contain;
     }
-
     .bg-homepage {
         background-image: url(../images/eb/homepage.jpg);
         position: fixed;
     }
-
     .logo-hp {
         display: none;
     }
@@ -810,8 +605,6 @@ button:hover {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 10vh;
-
-
     }
     .soundcloud {
         width: 50vw;
@@ -822,22 +615,16 @@ button:hover {
         margin-top: -10vh;
         background: rgba(0, 0, 0, 0.5);
         z-index: 6;
-
     }
 
     .soundcloud .link {
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
         width: 20vw;
         height: 20vw;
         overflow-y: hidden;
-
     }
 
-
-
-
+    
 /*events deskop*/
-
 #eventList {
     z-index: 10;
     width: 50vw;
@@ -846,9 +633,7 @@ button:hover {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     right: 0;
-
 }
-
 .event {
     background-color: white;
     color: black;
@@ -862,11 +647,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-
-
 }
-
-
 .scroll {
     position: fixed;
     width: 50vw;
@@ -879,7 +660,6 @@ button:hover {
     z-index: 30;
     animation-delay:
 }
-
 .scroll .arrow {
     background-image: url(../images/arrow.png);
     background-position: center;
@@ -891,23 +671,19 @@ button:hover {
     cursor: pointer;
 }
 
+    
 /*shop deskop*/
-
 .shop {
     width: 50vw;
     right: 0;
     background: rgba(0, 0, 0, 0.5);
-
 }
-
-
 .shop #shopList {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 5vh;
     height: auto;
     color: black;
-<<<<<<< HEAD
     }
 .oneitem{
     display: grid;
@@ -963,27 +739,21 @@ button:hover {
     }
     .music-nav{
         font-size: 40px;
-=======
 }
-
 #shopList .oneitem {
     display: grid;
     grid-template-columns: 1fr;
     width: 20vw;
     height: 25vw;
     overflow-y: hidden;
-
 }
-
 .button {
-
-  
     margin-left: 0;
     margin: auto;
-
 }
-/*about  deskop*/
     
+    
+/*about  deskop*/  
 .about_me {
     width: 90vw;
     background: rgba(0, 0, 0, 0.8);
@@ -993,41 +763,33 @@ button:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 .about_me h1 {
     font-size: 1.2em;
 }
-
 .about_me p {
     font-size: 1em;
 }
-
 .about_me .video {
     z-index: 10;
     height: auto;
      grid-column-start: 2;
     grid-column-end: 2;
-  width: 50vw;
-    
-       
+  width: 50vw;    
 }
-    .wp-video-shortcode{
+ .wp-video-shortcode{
           height: 100vh;
     width: auto;
     }
-
-    
-    
     .about_me .aboutList{
      grid-column-start: 1;
         grid-column-end: 2;
         position: absolute;
         z-index: 12;
         margin-top: -50vh;
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
     }
+    
+    
 /* navigation */
-
 .nav-desktop {
     position: absolute;
     color: white;
@@ -1037,7 +799,6 @@ button:hover {
     font-weight: 100;
     font-weight: 2em;
 }
-
 .nav-desktop-right {
     position: absolute;
     color: white;
@@ -1047,10 +808,7 @@ button:hover {
     font-family: "Futura", "Helvetica", "Roboto", sans-serif;
     font-weight: 100;
     font-weight: 2em;
-
-
 }
-
 .nav-desktop li {
     padding-left: 30px;
     display: inline-block;
@@ -1059,17 +817,13 @@ button:hover {
     font-size: 30px;
     cursor: pointer;
 }
-
 .nav-desktop li:hover {
     color: white;
 }
-
 .nav-desktop li u {
     color: white;
     text-decoration: none;
-
 }
-
 .nav-desktop-right li {
     padding-left: 30px;
     display: inline-block;
@@ -1077,45 +831,36 @@ button:hover {
     color: gainsboro;
     font-size: 30px;
     cursor: pointer;
-
 }
-
 .nav-desktop-right li:hover {
     color: white;
 }
-
 .nav-desktop-right li b {
     color: white;
     text-decoration: none;
 }
-
 .music-nav {
     font-size: 40px;
 }
-
 .shows-nav {
     left: 90vw;
     font-size: 40px;
 }
-
 .about-nav {
     top: 700px;
     font-size: 40px;
 }
-
 .shop-nav {
     top: 700px;
     left: 90vw;
     font-size: 40px;
 }
-
 .music-nav-cont,
 .shows-nav-left,
 .about-top-nav,
 .shop-nav-top-left {
     display: none;
 }
-
 .cross-right-music,
 .cross-right-about {
     left: 45vw;
@@ -1124,7 +869,6 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
-
 .cross-right-shows,
 .cross-right-shop{
     right: 45vw;
@@ -1133,27 +877,20 @@ button:hover {
     z-index: 20;
     cursor: pointer;
 }
-<<<<<<< HEAD
 .logo-bg:hover{
 background-image: url(../images/eb/new_hover.png);
-    z-index:30;
-     background-position: center;
-    background-repeat: no-repeat;
+z-index:30;
+background-position: center;
+background-repeat: no-repeat;
 background-size: contain;
 }
 .bg-homepage{
-        background-image: url(../images/eb/homepage.jpg);
-         position: fixed;
-    }
-    .logo-hp{
-        display: none;
+    background-image: url(../images/eb/homepage.jpg);
+    position: fixed;
+}
+.logo-hp{
+display: none;
     }   
-}
-=======
-
 .date {
-    color: black;
+color: black;
 }
-
-}
->>>>>>> fc0bf95e33b7d45931cfcd81405fa0a1dd4872f7
