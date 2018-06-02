@@ -19,7 +19,7 @@ let shows = document.querySelector('.shows-content');
 let showsDesk = document.querySelector('.shows-desk')
 let rightCloseShows = document.querySelector('.cross-right-shows');
 let shopNav = document.querySelector('.shop-nav');
-let shop = document.querySelector('.shop-content');
+let shop = document.querySelector('.shop');
 let shopDesk = document.querySelector('.shop-desk');
 let rightCloseShop = document.querySelector('.cross-right-shop');
 
