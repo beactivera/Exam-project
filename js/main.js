@@ -67,8 +67,8 @@ function gotoMusic(){
     shop.classList.add('hide');
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
-//    showsNav.style.display = "block";
-//    shopNav.style.display = "block";
+    showsNav.style.display = "none";
+    shopNav.style.display = "none";
 }
 
 rightCloseMusic.addEventListener('click', backToHomePageR)
