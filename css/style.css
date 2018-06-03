@@ -936,7 +936,10 @@ background: rgba(0, 0, 0, 0.5);
     font-size: 1em;
 }
 
-
+    .shows-desk, .shop-desk{
+        position: absolute;
+        z-index: 70;
+    }
     
     
 /* navigation */

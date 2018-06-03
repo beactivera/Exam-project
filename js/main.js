@@ -67,8 +67,8 @@ function gotoMusic(){
     shop.classList.add('hide');
     musicNav.style.display = "none";
     aboutNav.style.display = "none";
-    showsNav.style.display = "none";
-    shopNav.style.display = "none";
+//    showsNav.style.display = "block";
+//    shopNav.style.display = "block";
 }
 
 rightCloseMusic.addEventListener('click', backToHomePageR)
@@ -102,8 +102,8 @@ function gotoShows(){
     shop.classList.add('hide');
     showsNav.style.display = "none";
     shopNav.style.display = "none";
-    musicNav.style.display = "none";
-    aboutNav.style.display = "none";
+//    musicNav.style.display = "block";
+//    aboutNav.style.display = "block";
 
 }
 
@@ -161,8 +161,8 @@ function gotoShop(){
     shop.classList.remove('hide');
     showsNav.style.display = "none";
     shopNav.style.display = "none";
-     musicNav.style.display = "none";
-    aboutNav.style.display = "none";
+//     musicNav.style.display = "none";
+//    aboutNav.style.display = "none";
     
 }
 
